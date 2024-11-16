@@ -3,7 +3,7 @@ Official code and dataset for VQA² series models and dataset
 ## Quicker Start:
 Install dependencies:
 ```shell
-cd VQA²-main
+cd VQA_main
 conda create -n VQA python=3.10 -y
 conda activate VQA
 pip install --upgrade pip  # Enable PEP 660 support.
@@ -12,7 +12,7 @@ pip install pytorchvideo #For slowfast base model download
 pip install transformers==4.44.0 #Change the transformers version
 ```
 Notice!
-Replace the VQA/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py to VQA²-main/modeling_qwen2.py （we set some customized parameters in it）
+Replace the VQA/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py to VQA_main/modeling_qwen2.py (we set some customized parameters in it).
 
 ## VQA² Scorers: 
 cd VQA_main
