@@ -47,4 +47,17 @@ chmod +x ./scripts/train/finetune_VQA².sh
 ```
 Then directly execute this .sh file. Note that we only support training with per_device_train_batch_size=1.
 
+## Model Zoo
+We temporarily provide the hugging face model weight of VQA²-UGC-Scorer(7B) ,VQA²-Streaming-Scorer(7B), and VQA²-Assistant(7B); more versions will be released later.
+
+HF-PATH:
+
+VQA²-UGC-Scorer(7B): https://huggingface.co/q-future/VQA-UGC-Scorer (q-future/VQA-UGC-Scorer)
+
+VQA²-Streaming-Scorer(7B): https://huggingface.co/q-future/VQA-Streaming-Scorer (q-future/VQA-Streaming-Scorer)
+
+VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant (q-future/VQA-Assistant)
+
+
+
 
