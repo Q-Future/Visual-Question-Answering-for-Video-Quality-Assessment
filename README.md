@@ -15,23 +15,24 @@ Notice!
 Replace the VQA/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py to VQA²-main/modeling_qwen2.py （we set some customized parameters in it）
 
 ## VQA² Scorers: 
-cd VQA²-main
+cd VQA_main
 
 For UGC-Video Scoring:
 ```shell
 python ./llava/eval/model_score_UGC.py
-For Streaming-Video Scorering:
+```
+For Streaming-Video Scoring:
+```shell
 python ./llava/eval/model_score_streaming.py
 ```
 ## VQA² Assistant: 
-cd VQA²_benchmark
+cd VQA_benchmark_test
 
 For Q-bench-video Evaluation:
 ```shell
-cd VQA²_benchmark
 python ./llava/eval/model_vqa_q_bench_video.py
 ```
-For simple Q&A:
+For Simple Q&A:
 ```shell
 python ./llava/eval/model_conv.py
 ```
@@ -39,5 +40,11 @@ Gradio demo:
 ```shell
 python ./app.py #Note that the minimux GPU requirement is 3090(24G)*1.
 ```
+## Training
+cd VQA_main
+```shell
+chmod +x ./scripts/train/finetune_VQA².sh
+```
+Then directly execute this .sh file. Note that we only support training with per_device_train_batch_size=1.
 
 
