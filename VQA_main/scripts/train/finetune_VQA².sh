@@ -5,7 +5,7 @@
 #export NCCL_SOCKET_IFNAME=eth0
 #export NCCL_DEBUG=INFO
 
-LLM_VERSION="/workspace/LLaVA-NeXT-main/llava-ov-chat-qwen2-stage1-stage2-UGC-full" 
+LLM_VERSION="q-future/VQA-UGC-Scorer" 
 # for 7b model we recommend bs=1, accum=2, 16 nodes, 128 gpus, lr=1e-5, warmup=0.03
 # for 72b model we recommend bs=1, accum=1, 32 nodes, 256 gpus, lr=1e-5, warmup=0.03
 LLM_VERSION_CLEAN="${LLM_VERSION//\//_}"
