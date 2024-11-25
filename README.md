@@ -3,8 +3,12 @@
 <a href="https://arxiv.org/abs/2411.03795"><img src="https://img.shields.io/badge/Arxiv-2411:03795-red"></a>
   
 </div>
+</div>
+    
+  <h1> VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
 
-# VQA²-Visual-Question-Answering-for-Video-Quality-Assessment
+<div>
+
 Official code and dataset for VQA² series models and dataset
 ## Quicker Start:
 Install dependencies:
