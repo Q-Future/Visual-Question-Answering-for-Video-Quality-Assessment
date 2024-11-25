@@ -84,6 +84,20 @@ VQA²-Streaming-Scorer(7B): https://huggingface.co/q-future/VQA-Streaming-Scorer
 
 VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant (q-future/VQA-Assistant)
 
+## Citation
+
+If you consider this work interesting, please feel free to cite it in your work!
+
+```bibtex
+@misc{Jia2024VQA,
+      title={VQA²-Visual-Question-Answering-for-Video-Quality-Assessment}, 
+      author={Ziheng Jia and Zicheng Zhang and Jiaying Qian and Haoning Wu and Wei Sun and Chunyi Li and Xiaohong Liu and Weisi Lin and Guangtao Zhai and Xiongkuo Min},
+      year={2024},
+      eprint={2411.03795},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 
