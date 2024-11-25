@@ -10,6 +10,22 @@
 <div>
 
 Official code and dataset for VQA² series models and dataset
+
+## Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
+ <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="performance_00.png">
+  </div>
+
+## Dataset Construction Pipeline:
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="pipeline_00.png">
+  </div>
+
+## Model Structure:
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="model_00.png">
+  </div>
+
 ## Quicker Start:
 Install dependencies:
 ```shell
