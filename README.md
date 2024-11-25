@@ -5,6 +5,7 @@
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FQ-Future%2FQ-Instruct&count_bg=%23E97EBA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false" alt="Hits"></a>
     <a href='https://github.com/Q-Future/Q-Instruct/stargazers'><img src='https://img.shields.io/github/stars/Q-Future/Q-Instruct.svg?style=social'></a>
 </div>
+
 # VQA²-Visual-Question-Answering-for-Video-Quality-Assessment
 Official code and dataset for VQA² series models and dataset
 ## Quicker Start:
