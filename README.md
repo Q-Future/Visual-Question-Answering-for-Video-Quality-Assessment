@@ -89,13 +89,18 @@ VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant (q-future/VQA
 If you consider this work interesting, please feel free to cite it in your work!
 
 ```bibtex
-@misc{Jia2024VQA,
-      title={VQA²-Visual-Question-Answering-for-Video-Quality-Assessment}, 
-      author={Ziheng Jia and Zicheng Zhang and Jiaying Qian and Haoning Wu and Wei Sun and Chunyi Li and Xiaohong Liu and Weisi Lin and Guangtao Zhai and Xiongkuo Min},
-      year={2024},
-      eprint={2411.03795},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{jia2024vqa,
+  title={VQA $\^{} 2$: Visual Question Answering for Video Quality Assessment},
+  author={Jia, Ziheng and Zhang, Zicheng and Qian, Jiaying and Wu, Haoning and Sun, Wei and Li, Chunyi and Liu, Xiaohong and Lin, Weisi and Zhai, Guangtao and Min, Xiongkuo},
+  journal={arXiv preprint arXiv:2411.03795},
+  year={2024}
+}
+}
+@article{zhang2024q,
+  title={Q-Bench-Video: Benchmarking the Video Quality Understanding of LMMs},
+  author={Zhang, Zicheng and Jia, Ziheng and Wu, Haoning and Li, Chunyi and Chen, Zijian and Zhou, Yingjie and Sun, Wei and Liu, Xiaohong and Min, Xiongkuo and Lin, Weisi and others},
+  journal={arXiv preprint arXiv:2409.20063},
+  year={2024}
 }
 ```
 
