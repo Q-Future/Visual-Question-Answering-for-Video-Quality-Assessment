@@ -64,7 +64,7 @@ python ./llava/eval/model_conv.py
 ```
 Gradio demo:
 ```shell
-python ./app.py #Note that the minimux GPU requirement is 3090(24G)*1.
+python ./app.py #Note that the minimum GPU requirement is 3090(24G)*1.
 ```
 ## Training
 cd VQA_main
