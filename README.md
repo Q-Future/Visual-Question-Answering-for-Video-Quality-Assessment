@@ -89,6 +89,7 @@ Then directly execute this .sh file. Note that we only support training with per
 
 ## Training Dataset
 Stage2-streaming (2K): https://huggingface.co/datasets/q-future/VQA-stage2-streaming (q-future/VQA-stage2-streaming)
+
 Stage3 (14.3K mix/11.6K only): https://huggingface.co/datasets/q-future/VQA-stage3 (q-future/VQA-stage3)
 
 NOTE!!! The stage2-UGC part is in Stage3-mix part in https://huggingface.co/datasets/q-future/VQA-stage3
