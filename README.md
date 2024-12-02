@@ -88,7 +88,7 @@ chmod +x ./scripts/train/finetune_VQA².sh
 Then directly execute this .sh file. Note that we only support training with per_device_train_batch_size=1.
 
 ## Training Dataset
-Stage-2-streaming (2K): https://huggingface.co/datasets/q-future/VQA-stage2-streaming (q-future/VQA-stage2-streaming)
+Stage-2-streaming (2.1K): https://huggingface.co/datasets/q-future/VQA-stage2-streaming (q-future/VQA-stage2-streaming)
 
 Stage-3 (14.3K mix/11.6K only): https://huggingface.co/datasets/q-future/VQA-stage3 (q-future/VQA-stage3)
 
