@@ -27,11 +27,12 @@ Official code and dataset for VQA² series models and dataset
   </div>
   
 ## 🔖 TODO：
-- [√ ] Release testing and training code.
-- [√ ] Release model weights.
-- [ ] Release the stage-3 instruction dataset.
+- [√] Release testing and training code.
+- [√] Release model weights.
+- [√] Release the stage-2 instruction dataset.
+- [√] Release the stage-3 instruction dataset.
 - [ ] Provide HuggingFace demo.
-- [ ] 🔥🔥🔥ULTRA-TARGET: Scaling-up the dataset to over 1,000,000 pairs.
+- [ ] 🔥🔥🔥ULTRA-TARGET: Scaling up the dataset to over 1,000,000 pairs.
 
 ## Quicker Start:
 Install dependencies:
