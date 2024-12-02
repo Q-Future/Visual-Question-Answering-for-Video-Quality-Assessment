@@ -45,7 +45,7 @@ pip install -e ".[train]"
 pip install pytorchvideo #For slowfast base model download
 pip install transformers==4.44.0 #Change the transformers version
 ```
-Notice!
+NOTE!!!
 Replace the 
 
 your_env_dir/VQA/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py 
@@ -86,6 +86,12 @@ cd VQA_main
 chmod +x ./scripts/train/finetune_VQA².sh
 ```
 Then directly execute this .sh file. Note that we only support training with per_device_train_batch_size=1.
+
+## Training Dataset
+Stage2-streaming (2K): https://huggingface.co/datasets/q-future/VQA-stage2-streaming (q-future/VQA-stage2-streaming)
+Stage3 (14.3K mix/11.6K only): https://huggingface.co/datasets/q-future/VQA-stage3 (q-future/VQA-stage3)
+
+NOTE!!! The stage2-UGC part is in Stage3-mix part in https://huggingface.co/datasets/q-future/VQA-stage3
 
 ## Model Zoo
 We temporarily provide the huggingface weight of VQA²-UGC-Scorer(7B) ,VQA²-Streaming-Scorer(7B), and VQA²-Assistant(7B); more versions will be released later.
