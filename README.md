@@ -46,8 +46,11 @@ pip install transformers==4.44.0 #Change the transformers version
 ```
 Notice!
 Replace the 
+
 your_env_dir/VQA/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py 
+
 to 
+
 VQA_main/modeling_qwen2.py (we set some customized parameters in it).
 
 ## VQA² Scorers: 
