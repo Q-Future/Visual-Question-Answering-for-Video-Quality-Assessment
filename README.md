@@ -11,21 +11,26 @@
 
 Official code and dataset for VQA² series models and dataset
 
-## Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
+## 🔥Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
  <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="performance_00.png">
   </div>
 
-## Dataset Construction Pipeline:
+## 🔥Dataset Construction Pipeline:
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="pipeline_00.png">
   </div>
 
-## Model Structure:
+## 🔥Model Structure:
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="model_00.png">
   </div>
-
+## 🔖 TODO：
+- [√ ] Release testing and training code.
+- [√ ] Release model weights.
+- [ ] Release the stage-3 instruction dataset.
+- [ ] Provide HuggingFace demo.
+- [ ] 🔥🔥🔥ULTRA-TARGET: Scaling-up the dataset to over 1,000,000 pairs.
 ## Quicker Start:
 Install dependencies:
 ```shell
