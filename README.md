@@ -99,11 +99,11 @@ We temporarily provide the huggingface weight of VQA²-UGC-Scorer(7B) ,VQA²-Str
 
 HF-PATH:
 
-VQA²-UGC-Scorer(7B): https://huggingface.co/q-future/VQA-UGC-Scorer_qwen (q-future/VQA-UGC-Scorer-llava_qwen)
+VQA²-UGC-Scorer(7B): https://huggingface.co/q-future/VQA-UGC-Scorer-llava_qwen (q-future/VQA-UGC-Scorer-llava_qwen)
 
-VQA²-Streaming-Scorer(7B): https://huggingface.co/q-future/VQA-Streaming-Scorer_qwen (q-future/VQA-Streaming-Scorer-llava_qwen)
+VQA²-Streaming-Scorer(7B): https://huggingface.co/q-future/VQA-Streaming-Scorer-llava_qwen (q-future/VQA-Streaming-Scorer-llava_qwen)
 
-VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant_qwen (q-future/VQA-Assistant-llava_qwen)
+VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant-llava_qwen (q-future/VQA-Assistant-llava_qwen)
 
 ## Citation
 
