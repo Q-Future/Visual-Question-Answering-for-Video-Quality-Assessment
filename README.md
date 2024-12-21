@@ -48,6 +48,7 @@ pip install -e ".[train]"
 pip install pytorchvideo #For slowfast base model download
 pip install transformers==4.44.0 #Change the transformers version
 ```
+Fix：[2024.12.20] You may have to download the initialized slowfast.pth (https://huggingface.co/JZHWS/slowfast) and load the pretrained model in "llava\model\slowfast\builder.py"(line 11) to make sure the model initialization is implementable since the model downloaded through pytorchvideo includes meta tensors.
 NOTE!!!
 Replace the 
 
