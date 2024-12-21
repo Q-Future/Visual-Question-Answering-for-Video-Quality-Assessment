@@ -40,22 +40,23 @@ except ImportError:
 def process_video_with_decord(video_file, video_fps):
     from decord import VideoReader, cpu
     vr = VideoReader(video_file, ctx=cpu(0), num_threads=1)
-    frame_idx = []
-    for ii in range(len(vr) // round(vr.get_avg_fps())):
-        total_frame_num = round(vr.get_avg_fps())
-        avg_fps = round(vr.get_avg_fps() / video_fps)
-        # total_frame_num=len(vr)//avg_fps*avg_fps
-        frame_idx.extend([i for i in range(ii * round(vr.get_avg_fps()), (ii + 1) * round(vr.get_avg_fps()), avg_fps)])
-    total_frame_num = len(vr) - (len(vr) // round(vr.get_avg_fps()) * round(vr.get_avg_fps()))
-    avg_fps = round(vr.get_avg_fps() / video_fps)
-    # total_frame_num=len(vr)//avg_fps*avg_fps
-    frame_idx.extend([i for i in range((ii + 1) * round(vr.get_avg_fps()), len(vr), avg_fps)])
+    # frame_idx=[]
+    # for ii in range(len(vr)//round(vr.get_avg_fps())):
+    #     total_frame_num = round(vr.get_avg_fps())
+    #     avg_fps = round(vr.get_avg_fps() / video_fps)
+    #     # total_frame_num=len(vr)//avg_fps*avg_fps
+    #     frame_idx.extend([i for i in range(ii*round(vr.get_avg_fps()), (ii+1)*round(vr.get_avg_fps()), avg_fps)])
+    # total_frame_num = len(vr)-(len(vr)//round(vr.get_avg_fps())*round(vr.get_avg_fps()))
+    # avg_fps = round(vr.get_avg_fps() / video_fps)
+    # # total_frame_num=len(vr)//avg_fps*avg_fps
+    # frame_idx.extend([i for i in range((ii+1)*round(vr.get_avg_fps()), len(vr), avg_fps)])
     # if len(frame_idx) > 200:
     #             uniform_sampled_frames = np.linspace(0, total_frame_num - 1, 100, dtype=int)
     #             frame_idx = uniform_sampled_frames.tolist()
-    frames = vr.get_batch(frame_idx).asnumpy()
+    frames = vr.get_batch(list(range(len(vr)))).asnumpy()
     frame_idx1 = []
     video_fps = 1
+    ii=-1
     for ii in range(len(vr) // round(vr.get_avg_fps())):
         total_frame_num = round(vr.get_avg_fps())
         avg_fps = round(vr.get_avg_fps() / video_fps)
