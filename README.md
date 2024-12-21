@@ -10,6 +10,9 @@
 <div>
 
 Official code and dataset for VQA² series models and dataset
+## Release News
+
+- **[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
 
 ## 🔥Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
  <div style="width: 100%; text-align: center; margin:auto;">
