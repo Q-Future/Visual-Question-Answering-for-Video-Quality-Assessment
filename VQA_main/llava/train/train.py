@@ -40,6 +40,7 @@ import tokenizers
 import deepspeed
 
 from transformers import AutoConfig
+from transformers.models.llava.configuration_llava import LlavaConfig
 from torch.utils.data import Dataset
 from llava.constants import IGNORE_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IMAGE_TOKEN_INDEX
 from llava.train.llava_trainer import LLaVATrainer
