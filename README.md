@@ -15,9 +15,9 @@ Official code and dataset for VQA² series models and dataset
 - **[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
 - **[2025/1/31] We will release the refined code and more detailed dataset soon, making sure that the results in the paper reproducible.
 
-## 🔥Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
+## 🔥Overview of our work!!!!
  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="performance_00.png">
+      <img style="width:100%" src="performance_01.png">
   </div>
 
 ## 🔥Dataset Construction Pipeline:
@@ -27,7 +27,7 @@ Official code and dataset for VQA² series models and dataset
 
 ## 🔥Model Structure:
 <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="model_00.png">
+      <img style="width:100%" src="model_01.png">
   </div>
   
 ## 🔖 TODO：
