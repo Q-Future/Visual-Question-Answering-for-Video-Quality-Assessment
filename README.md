@@ -22,7 +22,8 @@ Official code and dataset for VQA² series models and dataset
 
 ## 🔥Dataset Construction Pipeline:
 <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="pipeline_00.png">
+      <img style="width:100%" src="stage12_00.png">
+      <img style="width:100%" src="stage3_00.png">
   </div>
 
 ## 🔥Model Structure:
