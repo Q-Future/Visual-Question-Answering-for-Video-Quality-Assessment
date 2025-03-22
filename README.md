@@ -17,7 +17,7 @@ Official code and dataset for VQA² series models and dataset
 
 ## 🔥Exellent Performance on Video Quality Scoring and Video Quality Understanding!!!
  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="performance_00.png">
+      <img style="width:100%" src="performance.pdf">
   </div>
 
 ## 🔥Dataset Construction Pipeline:
@@ -27,7 +27,7 @@ Official code and dataset for VQA² series models and dataset
 
 ## 🔥Model Structure:
 <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="model_00.png">
+      <img style="width:100%" src="model.pdf">
   </div>
   
 ## 🔖 TODO：
