@@ -13,7 +13,8 @@ Official code and dataset for VQA² series models and dataset
 ## Release News
 
 - **[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
-- **[2025/1/31] We will release the refined code and more detailed dataset soon, making sure that the results in the paper reproducible.
+- **[2025/1/31] We will release the refined code and more detailed dataset soon, making sure that the results in the paper are reproducible.
+- **[2025/3/22] New outlook of our project! A major release is coming soon!
 
 ## 🔥Overview of our work!!!!
  <div style="width: 100%; text-align: center; margin:auto;">
