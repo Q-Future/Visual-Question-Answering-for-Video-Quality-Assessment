@@ -16,21 +16,7 @@ Official code and dataset for VQA² series models and dataset
 - **[2025/1/31] We will release the refined code and more detailed dataset soon, making sure that the results in the paper are reproducible.
 - **[2025/3/22] New outlook of our project! A major release is coming soon!
 
-## 🔥Overview of our work!!!!
- <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="performance_01.png">
-  </div>
 
-## 🔥Dataset Construction Pipeline:
-<div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="stage12_00.png">
-      <img style="width:100%" src="stage3_00.png">
-  </div>
-
-## 🔥Model Structure:
-<div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="model_01.png">
-  </div>
   
 ## 🔖 TODO：
 - [√] Release testing and training code.
