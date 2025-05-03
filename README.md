@@ -23,7 +23,7 @@ Official code and dataset for VQA² series models and dataset
 - [√] Release model weights.
 - [√] Release the stage-2 instruction dataset.
 - [√] Release the stage-3 instruction dataset.
-- [√] 🔥🔥🔥ULTRA-TARGET: Scaling up the dataset to over 1,000,000 pairs (to be released!).
+- [√] Release the training code on the famous Qwen2.5-VL.
 
 ## Quicker Start:
 Install dependencies:
