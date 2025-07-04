@@ -5,11 +5,11 @@
 </div>
 </div>
     
-  <h1> [ACMMM2025] VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
+  <h1> VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
 
 <div>
 
-Official code and dataset for VQA² series models and dataset
+[ACMMM2025]Official code and dataset for VQA² series models and dataset
 ## Release News
 - **[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
 - **[2025/1/31] We have released the refined code and more detailed dataset, making sure that the results in the paper are reproducible.
