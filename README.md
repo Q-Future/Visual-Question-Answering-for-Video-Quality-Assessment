@@ -5,7 +5,7 @@
 </div>
 </div>
     
-  <h1> VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
+  <h1> [ACMMM2025] VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
 
 <div>
 
