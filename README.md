@@ -77,7 +77,7 @@ _Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLa
 ## Quicker Start:
 Install dependencies:
 ```shell
-cd VQA_main
+cd quality_interpreting
 conda create -n VQA python=3.10 -y
 conda activate VQA
 pip install --upgrade pip
