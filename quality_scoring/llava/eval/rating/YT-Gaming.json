@@ -1,0 +1,3002 @@
+[
+    {
+        "img_path": "ARKSuvivalEvolved-001.mp4",
+        "mos": 0.7020515187405137,
+        "level": 4
+    },
+    {
+        "img_path": "AgeEmpires-001.mp4",
+        "mos": 0.555903421333555,
+        "level": 3
+    },
+    {
+        "img_path": "AgeEmpires-004.mp4",
+        "mos": 0.8259906568984927,
+        "level": 5
+    },
+    {
+        "img_path": "AgeEmpires-005.mp4",
+        "mos": 0.6972532279302743,
+        "level": 4
+    },
+    {
+        "img_path": "AgeEmpires-006.mp4",
+        "mos": 0.8373392925454148,
+        "level": 5
+    },
+    {
+        "img_path": "AnimalCrossing-006.mp4",
+        "mos": 0.898208472542843,
+        "level": 5
+    },
+    {
+        "img_path": "AnimalCrossing-007.mp4",
+        "mos": 0.94376069599233,
+        "level": 5
+    },
+    {
+        "img_path": "AnimalCrossing-008.mp4",
+        "mos": 1.0,
+        "level": 6
+    },
+    {
+        "img_path": "AnimalCrossing-010.mp4",
+        "mos": 0.635872815490513,
+        "level": 4
+    },
+    {
+        "img_path": "AnimalCrossing-015.mp4",
+        "mos": 0.867988603905123,
+        "level": 5
+    },
+    {
+        "img_path": "AnimalCrossing-017.mp4",
+        "mos": 0.8166497734900703,
+        "level": 5
+    },
+    {
+        "img_path": "AnimalCrossing-018.mp4",
+        "mos": 0.8338496529839694,
+        "level": 5
+    },
+    {
+        "img_path": "ApexLegends-001.mp4",
+        "mos": 0.5589898948667051,
+        "level": 3
+    },
+    {
+        "img_path": "ApexLegends-002.mp4",
+        "mos": 0.6382538768632915,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-004.mp4",
+        "mos": 0.5051187722305784,
+        "level": 3
+    },
+    {
+        "img_path": "ApexLegends-005.mp4",
+        "mos": 0.6550534651824109,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-006.mp4",
+        "mos": 0.3711784457656149,
+        "level": 2
+    },
+    {
+        "img_path": "ApexLegends-007.mp4",
+        "mos": 0.7634772208544214,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-008.mp4",
+        "mos": 0.780250779595118,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-009.mp4",
+        "mos": 0.893248712916671,
+        "level": 5
+    },
+    {
+        "img_path": "ApexLegends-010.mp4",
+        "mos": 0.6998975972092961,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-011.mp4",
+        "mos": 0.7228830266377199,
+        "level": 4
+    },
+    {
+        "img_path": "ApexLegends-012.mp4",
+        "mos": 0.8391611654070096,
+        "level": 5
+    },
+    {
+        "img_path": "ApexLegends-013.mp4",
+        "mos": 0.8310738133814239,
+        "level": 5
+    },
+    {
+        "img_path": "AssassinCreed-001.mp4",
+        "mos": 0.5164601860647686,
+        "level": 3
+    },
+    {
+        "img_path": "AssassinCreed-011.mp4",
+        "mos": 0.5504932019337777,
+        "level": 3
+    },
+    {
+        "img_path": "AssassinCreed-012.mp4",
+        "mos": 0.5211186590665478,
+        "level": 3
+    },
+    {
+        "img_path": "AssassinCreed-013.mp4",
+        "mos": 0.6504030277444596,
+        "level": 4
+    },
+    {
+        "img_path": "AssassinCreed-014.mp4",
+        "mos": 0.5738107315224843,
+        "level": 3
+    },
+    {
+        "img_path": "AssassinCreed-015.mp4",
+        "mos": 0.5977942512904078,
+        "level": 3
+    },
+    {
+        "img_path": "AssassinCreed-016.mp4",
+        "mos": 0.5584577999585818,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-002.mp4",
+        "mos": 0.4547867440913055,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-003.mp4",
+        "mos": 0.6642155863274315,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-007.mp4",
+        "mos": 0.8700640256386091,
+        "level": 5
+    },
+    {
+        "img_path": "CSGO-008.mp4",
+        "mos": 0.8760244056559733,
+        "level": 5
+    },
+    {
+        "img_path": "CSGO-009.mp4",
+        "mos": 0.24841808950300606,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-010.mp4",
+        "mos": 0.3108456814359343,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-011.mp4",
+        "mos": 0.2830054764437783,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-015.mp4",
+        "mos": 0.8593540317291328,
+        "level": 5
+    },
+    {
+        "img_path": "CSGO-018.mp4",
+        "mos": 0.6106066060007737,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-019.mp4",
+        "mos": 0.691344867972859,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-023.mp4",
+        "mos": 0.5298383120486321,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-026.mp4",
+        "mos": 0.4197107856729847,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-028.mp4",
+        "mos": 0.5994555920355027,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-029.mp4",
+        "mos": 0.6614179776032251,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-030.mp4",
+        "mos": 0.596640409263415,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-031.mp4",
+        "mos": 0.8371712782428292,
+        "level": 5
+    },
+    {
+        "img_path": "CSGO-032.mp4",
+        "mos": 0.513694605937695,
+        "level": 3
+    },
+    {
+        "img_path": "CSGO-033.mp4",
+        "mos": 0.7763343417201923,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-034.mp4",
+        "mos": 0.3179651222596495,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-035.mp4",
+        "mos": 0.30827898948528226,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-036.mp4",
+        "mos": 0.3237423305989086,
+        "level": 2
+    },
+    {
+        "img_path": "CSGO-038.mp4",
+        "mos": 0.7891839294658692,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-043.mp4",
+        "mos": 0.7135624344490407,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-046.mp4",
+        "mos": 0.7666818040049076,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-047.mp4",
+        "mos": 0.6901775044262473,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-048.mp4",
+        "mos": 0.8300224707003842,
+        "level": 5
+    },
+    {
+        "img_path": "CSGO-050.mp4",
+        "mos": 0.7399595885078805,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-051.mp4",
+        "mos": 0.7148998838547956,
+        "level": 4
+    },
+    {
+        "img_path": "CSGO-055.mp4",
+        "mos": 0.789854065019436,
+        "level": 4
+    },
+    {
+        "img_path": "CallofDuty-001.mp4",
+        "mos": 0.9182197517619803,
+        "level": 5
+    },
+    {
+        "img_path": "CallofDuty-002.mp4",
+        "mos": 0.8808237114307206,
+        "level": 5
+    },
+    {
+        "img_path": "CallofDuty-003.mp4",
+        "mos": 0.5573525230754811,
+        "level": 3
+    },
+    {
+        "img_path": "CallofDuty-004.mp4",
+        "mos": 0.5382538718606232,
+        "level": 3
+    },
+    {
+        "img_path": "CallofDuty-005.mp4",
+        "mos": 0.3457981399107074,
+        "level": 2
+    },
+    {
+        "img_path": "CallofDuty-006.mp4",
+        "mos": 0.5092746671145275,
+        "level": 3
+    },
+    {
+        "img_path": "CallofDuty-008.mp4",
+        "mos": 0.3776296164713865,
+        "level": 2
+    },
+    {
+        "img_path": "CallofDuty-009.mp4",
+        "mos": 0.34571811077516307,
+        "level": 2
+    },
+    {
+        "img_path": "CallofDuty-010.mp4",
+        "mos": 0.3462786070223448,
+        "level": 2
+    },
+    {
+        "img_path": "CallofDuty-011.mp4",
+        "mos": 0.35266027834067226,
+        "level": 2
+    },
+    {
+        "img_path": "CallofDuty-012.mp4",
+        "mos": 0.15861491663480082,
+        "level": 1
+    },
+    {
+        "img_path": "CallofDuty-013.mp4",
+        "mos": 0.7597172939373408,
+        "level": 4
+    },
+    {
+        "img_path": "CallofDuty-014.mp4",
+        "mos": 0.8838563121000931,
+        "level": 5
+    },
+    {
+        "img_path": "CallofDuty-015.mp4",
+        "mos": 0.6329983185300937,
+        "level": 4
+    },
+    {
+        "img_path": "CitiesSkylines-001.mp4",
+        "mos": 0.8066350803384961,
+        "level": 5
+    },
+    {
+        "img_path": "CitiesSkylines-008.mp4",
+        "mos": 0.7472867586513722,
+        "level": 4
+    },
+    {
+        "img_path": "Civilization-001.mp4",
+        "mos": 0.9206975882287284,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-006.mp4",
+        "mos": 0.8215482357219751,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-007.mp4",
+        "mos": 0.8547692796278558,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-010.mp4",
+        "mos": 0.7086938886218619,
+        "level": 4
+    },
+    {
+        "img_path": "Civilization-011.mp4",
+        "mos": 0.8015525283225413,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-015.mp4",
+        "mos": 0.7612369747819369,
+        "level": 4
+    },
+    {
+        "img_path": "Civilization-016.mp4",
+        "mos": 0.9114233187348217,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-017.mp4",
+        "mos": 0.8416620698268716,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-018.mp4",
+        "mos": 0.8325901147437006,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-019.mp4",
+        "mos": 0.8908833151902247,
+        "level": 5
+    },
+    {
+        "img_path": "Civilization-021.mp4",
+        "mos": 0.9160344189539665,
+        "level": 5
+    },
+    {
+        "img_path": "ClashClans-003.mp4",
+        "mos": 0.31913925015881195,
+        "level": 2
+    },
+    {
+        "img_path": "ClashClans-004.mp4",
+        "mos": 0.42890654535649364,
+        "level": 3
+    },
+    {
+        "img_path": "CodeVein-002.mp4",
+        "mos": 0.8713524886694088,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-003.mp4",
+        "mos": 0.9128521473137488,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-004.mp4",
+        "mos": 0.9233738591825222,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-005.mp4",
+        "mos": 0.8778449963004695,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-006.mp4",
+        "mos": 0.9107007118250735,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-007.mp4",
+        "mos": 0.792137740833202,
+        "level": 4
+    },
+    {
+        "img_path": "CodeVein-011.mp4",
+        "mos": 0.888699258759548,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-012.mp4",
+        "mos": 0.8900757023931787,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-013.mp4",
+        "mos": 0.8410377267944404,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-015.mp4",
+        "mos": 0.823970312295433,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-016.mp4",
+        "mos": 0.8426192616709702,
+        "level": 5
+    },
+    {
+        "img_path": "CodeVein-017.mp4",
+        "mos": 0.6026051229643804,
+        "level": 4
+    },
+    {
+        "img_path": "CodeVein-019.mp4",
+        "mos": 0.8132750109261417,
+        "level": 5
+    },
+    {
+        "img_path": "CrusaderKings-001.mp4",
+        "mos": 0.8118807599040043,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-001.mp4",
+        "mos": 0.9079836936137147,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-003.mp4",
+        "mos": 0.9192274553428813,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-004.mp4",
+        "mos": 0.8957213889674651,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-005.mp4",
+        "mos": 0.9843870190231278,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-006.mp4",
+        "mos": 0.9568450129879947,
+        "level": 5
+    },
+    {
+        "img_path": "CultistSimulator-007.mp4",
+        "mos": 0.9520662783315035,
+        "level": 5
+    },
+    {
+        "img_path": "DOTA-001.mp4",
+        "mos": 0.4556022903596368,
+        "level": 3
+    },
+    {
+        "img_path": "DOTA-002.mp4",
+        "mos": 0.5449319539491715,
+        "level": 3
+    },
+    {
+        "img_path": "DOTA-003.mp4",
+        "mos": 0.6040070034618062,
+        "level": 4
+    },
+    {
+        "img_path": "DOTA-004.mp4",
+        "mos": 0.21273797374155193,
+        "level": 2
+    },
+    {
+        "img_path": "DOTA-005.mp4",
+        "mos": 0.1531915049093229,
+        "level": 1
+    },
+    {
+        "img_path": "DOTA-006.mp4",
+        "mos": 0.8633035443398396,
+        "level": 5
+    },
+    {
+        "img_path": "DarkSouls-001.mp4",
+        "mos": 0.6829602533198088,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-004.mp4",
+        "mos": 0.5945902461280312,
+        "level": 3
+    },
+    {
+        "img_path": "DarkSouls-005.mp4",
+        "mos": 0.7781756276516117,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-051.mp4",
+        "mos": 0.6656488271424716,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-054.mp4",
+        "mos": 0.636154970959082,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-055.mp4",
+        "mos": 0.6720630467018062,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-062.mp4",
+        "mos": 0.7253673476150322,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-063.mp4",
+        "mos": 0.7475888195282815,
+        "level": 4
+    },
+    {
+        "img_path": "DarkSouls-071.mp4",
+        "mos": 0.5787968456595518,
+        "level": 3
+    },
+    {
+        "img_path": "DarkSouls-072.mp4",
+        "mos": 0.4371170323452569,
+        "level": 3
+    },
+    {
+        "img_path": "Diablo-001.mp4",
+        "mos": 0.7083346766839724,
+        "level": 4
+    },
+    {
+        "img_path": "Diablo-003.mp4",
+        "mos": 0.7365831773003165,
+        "level": 4
+    },
+    {
+        "img_path": "Diablo-004.mp4",
+        "mos": 0.889865367951932,
+        "level": 5
+    },
+    {
+        "img_path": "Diablo-005.mp4",
+        "mos": 0.7730264306080574,
+        "level": 4
+    },
+    {
+        "img_path": "Diablo-006.mp4",
+        "mos": 0.6949893477063229,
+        "level": 4
+    },
+    {
+        "img_path": "ElderScrolls-002.mp4",
+        "mos": 0.3134537705889033,
+        "level": 2
+    },
+    {
+        "img_path": "ElderScrolls-003.mp4",
+        "mos": 0.4936187776198919,
+        "level": 3
+    },
+    {
+        "img_path": "ElderScrolls-004.mp4",
+        "mos": 0.5220970156846095,
+        "level": 3
+    },
+    {
+        "img_path": "FF-001.mp4",
+        "mos": 0.6398591182296507,
+        "level": 4
+    },
+    {
+        "img_path": "FF-002.mp4",
+        "mos": 0.8150708405771613,
+        "level": 5
+    },
+    {
+        "img_path": "FF-003.mp4",
+        "mos": 0.575165300661454,
+        "level": 3
+    },
+    {
+        "img_path": "FF-004.mp4",
+        "mos": 0.632390475393762,
+        "level": 4
+    },
+    {
+        "img_path": "FF-005.mp4",
+        "mos": 0.739262479903323,
+        "level": 4
+    },
+    {
+        "img_path": "FF-007.mp4",
+        "mos": 0.6485718129129462,
+        "level": 4
+    },
+    {
+        "img_path": "FF-008.mp4",
+        "mos": 0.5941097490861782,
+        "level": 3
+    },
+    {
+        "img_path": "FF-021.mp4",
+        "mos": 0.6350670869496107,
+        "level": 4
+    },
+    {
+        "img_path": "FF-022.mp4",
+        "mos": 0.7136476814782805,
+        "level": 4
+    },
+    {
+        "img_path": "FF-023.mp4",
+        "mos": 0.735952422432564,
+        "level": 4
+    },
+    {
+        "img_path": "FF-031.mp4",
+        "mos": 0.6892729720575385,
+        "level": 4
+    },
+    {
+        "img_path": "FF-032.mp4",
+        "mos": 0.5952406345546335,
+        "level": 3
+    },
+    {
+        "img_path": "FF-033.mp4",
+        "mos": 0.5463254645578595,
+        "level": 3
+    },
+    {
+        "img_path": "FF-034.mp4",
+        "mos": 0.6745046585778393,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-001.mp4",
+        "mos": 0.5716777585496032,
+        "level": 3
+    },
+    {
+        "img_path": "FIFA-002.mp4",
+        "mos": 0.777096720378022,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-004.mp4",
+        "mos": 0.7365550511920936,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-005.mp4",
+        "mos": 0.6772890474626219,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-008.mp4",
+        "mos": 0.5895345663575396,
+        "level": 3
+    },
+    {
+        "img_path": "FIFA-009.mp4",
+        "mos": 0.7140162897291781,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-010.mp4",
+        "mos": 0.6733859840370292,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-011.mp4",
+        "mos": 0.7556706208969954,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-012.mp4",
+        "mos": 0.706463359740274,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-013.mp4",
+        "mos": 0.6697916202018506,
+        "level": 4
+    },
+    {
+        "img_path": "FIFA-014.mp4",
+        "mos": 0.3972020220195365,
+        "level": 2
+    },
+    {
+        "img_path": "Fallout-001.mp4",
+        "mos": 0.15884000697846629,
+        "level": 1
+    },
+    {
+        "img_path": "Fallout-003.mp4",
+        "mos": 0.0,
+        "level": 1
+    },
+    {
+        "img_path": "Fallout-004.mp4",
+        "mos": 0.272961018276777,
+        "level": 2
+    },
+    {
+        "img_path": "Fallout-005.mp4",
+        "mos": 0.19074072403406145,
+        "level": 1
+    },
+    {
+        "img_path": "Fallout-007.mp4",
+        "mos": 0.12557041715376363,
+        "level": 1
+    },
+    {
+        "img_path": "Fallout-071.mp4",
+        "mos": 0.7620106553803088,
+        "level": 4
+    },
+    {
+        "img_path": "Fallout-072.mp4",
+        "mos": 0.7280115792314915,
+        "level": 4
+    },
+    {
+        "img_path": "Fallout-073.mp4",
+        "mos": 0.7166372487687592,
+        "level": 4
+    },
+    {
+        "img_path": "Fallout-074.mp4",
+        "mos": 0.8083809909324051,
+        "level": 5
+    },
+    {
+        "img_path": "Fallout-075.mp4",
+        "mos": 0.7408498340911484,
+        "level": 4
+    },
+    {
+        "img_path": "Fallout-076.mp4",
+        "mos": 0.7633750770682336,
+        "level": 4
+    },
+    {
+        "img_path": "FireEmblem-001.mp4",
+        "mos": 0.7161038642171406,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-006.mp4",
+        "mos": 0.5665234053680022,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-014.mp4",
+        "mos": 0.5386672258013471,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-017.mp4",
+        "mos": 0.6438775666920508,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-018.mp4",
+        "mos": 0.5493240999269583,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-021.mp4",
+        "mos": 0.7987079783170771,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-022.mp4",
+        "mos": 0.42401843997045807,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-024.mp4",
+        "mos": 0.7973127290553373,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-028.mp4",
+        "mos": 0.679515671970922,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-029.mp4",
+        "mos": 0.7416745104123446,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-032.mp4",
+        "mos": 0.566543312848499,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-037.mp4",
+        "mos": 0.5548352319089868,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-038.mp4",
+        "mos": 0.5820091755967574,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-045.mp4",
+        "mos": 0.7059201183193374,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-047.mp4",
+        "mos": 0.6492807334080957,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-049.mp4",
+        "mos": 0.661749252798383,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-051.mp4",
+        "mos": 0.8137652575572519,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-053.mp4",
+        "mos": 0.9254162705456094,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-055.mp4",
+        "mos": 0.815101655869735,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-057.mp4",
+        "mos": 0.8699003217695627,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-058.mp4",
+        "mos": 0.7417618701293783,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-062.mp4",
+        "mos": 0.7667764497168751,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-066.mp4",
+        "mos": 0.8823768385854153,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-073.mp4",
+        "mos": 0.40306257360415165,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-075.mp4",
+        "mos": 0.6378700198855836,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-076.mp4",
+        "mos": 0.6068368337885293,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-079.mp4",
+        "mos": 0.8632918927632085,
+        "level": 5
+    },
+    {
+        "img_path": "Fortnite-080.mp4",
+        "mos": 0.6690694545528654,
+        "level": 4
+    },
+    {
+        "img_path": "Fortnite-084.mp4",
+        "mos": 0.595079521479412,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-088.mp4",
+        "mos": 0.3839883332475788,
+        "level": 2
+    },
+    {
+        "img_path": "Fortnite-093.mp4",
+        "mos": 0.5287576034807047,
+        "level": 3
+    },
+    {
+        "img_path": "Fortnite-099.mp4",
+        "mos": 0.7134815528021712,
+        "level": 4
+    },
+    {
+        "img_path": "ForzaHorizon-001.mp4",
+        "mos": 0.8935208715962606,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-002.mp4",
+        "mos": 0.8579309642104529,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-003.mp4",
+        "mos": 0.9163009826480942,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-005.mp4",
+        "mos": 0.4681975357745507,
+        "level": 3
+    },
+    {
+        "img_path": "ForzaHorizon-008.mp4",
+        "mos": 0.42691317748963603,
+        "level": 3
+    },
+    {
+        "img_path": "ForzaHorizon-011.mp4",
+        "mos": 0.4980186577500005,
+        "level": 3
+    },
+    {
+        "img_path": "ForzaHorizon-012.mp4",
+        "mos": 0.5174897922823404,
+        "level": 3
+    },
+    {
+        "img_path": "ForzaHorizon-018.mp4",
+        "mos": 0.6893881174429538,
+        "level": 4
+    },
+    {
+        "img_path": "ForzaHorizon-019.mp4",
+        "mos": 0.921791367780257,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-020.mp4",
+        "mos": 0.8416876204033072,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-021.mp4",
+        "mos": 0.7695597508246966,
+        "level": 4
+    },
+    {
+        "img_path": "ForzaHorizon-022.mp4",
+        "mos": 0.8942222054015898,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-023.mp4",
+        "mos": 0.9467328500113503,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-040.mp4",
+        "mos": 0.8906802160898926,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-041.mp4",
+        "mos": 0.8726037007935826,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-042.mp4",
+        "mos": 0.8384058658926945,
+        "level": 5
+    },
+    {
+        "img_path": "ForzaHorizon-043.mp4",
+        "mos": 0.8377750408798533,
+        "level": 5
+    },
+    {
+        "img_path": "GTA-001.mp4",
+        "mos": 0.5631638406073388,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-003.mp4",
+        "mos": 0.7548384017814651,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-004.mp4",
+        "mos": 0.7132747281165005,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-005.mp4",
+        "mos": 0.8450287482565025,
+        "level": 5
+    },
+    {
+        "img_path": "GTA-011.mp4",
+        "mos": 0.6578950840019107,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-013.mp4",
+        "mos": 0.6809678694661403,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-015.mp4",
+        "mos": 0.7654512162887048,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-016.mp4",
+        "mos": 0.6846054471647884,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-017.mp4",
+        "mos": 0.6208043697681851,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-018.mp4",
+        "mos": 0.5443524311878456,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-023.mp4",
+        "mos": 0.6832256791995973,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-025.mp4",
+        "mos": 0.6015706723300507,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-027.mp4",
+        "mos": 0.47280607716368545,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-028.mp4",
+        "mos": 0.7838201382480381,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-031.mp4",
+        "mos": 0.6842816834882387,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-040.mp4",
+        "mos": 0.7013428378342036,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-041.mp4",
+        "mos": 0.6893084995026225,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-042.mp4",
+        "mos": 0.6849092990962338,
+        "level": 4
+    },
+    {
+        "img_path": "GTA-043.mp4",
+        "mos": 0.5694825239277872,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-046.mp4",
+        "mos": 0.4103475691032723,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-048.mp4",
+        "mos": 0.5399130863713625,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-049.mp4",
+        "mos": 0.42426325263556947,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-050.mp4",
+        "mos": 0.9135144086020593,
+        "level": 5
+    },
+    {
+        "img_path": "GTA-056.mp4",
+        "mos": 0.5669307427167005,
+        "level": 3
+    },
+    {
+        "img_path": "GTA-059.mp4",
+        "mos": 0.8462243619931898,
+        "level": 5
+    },
+    {
+        "img_path": "GTA-061.mp4",
+        "mos": 0.8818714084161637,
+        "level": 5
+    },
+    {
+        "img_path": "GTA-062.mp4",
+        "mos": 0.2455459069847188,
+        "level": 2
+    },
+    {
+        "img_path": "GTA-064.mp4",
+        "mos": 0.6251662341300376,
+        "level": 4
+    },
+    {
+        "img_path": "GenshinImpact-001.mp4",
+        "mos": 0.8672951765413478,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-002.mp4",
+        "mos": 0.8396254168399286,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-003.mp4",
+        "mos": 0.8644928229945659,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-004.mp4",
+        "mos": 0.8786395836656262,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-005.mp4",
+        "mos": 0.9652387245844108,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-006.mp4",
+        "mos": 0.9290947005299153,
+        "level": 5
+    },
+    {
+        "img_path": "GenshinImpact-007.mp4",
+        "mos": 0.8949326065616752,
+        "level": 5
+    },
+    {
+        "img_path": "Hearthstone-001.mp4",
+        "mos": 0.6600897863431918,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-003.mp4",
+        "mos": 0.6348072743484525,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-004.mp4",
+        "mos": 0.9222443704860263,
+        "level": 5
+    },
+    {
+        "img_path": "Hearthstone-005.mp4",
+        "mos": 0.7691852530933239,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-007.mp4",
+        "mos": 0.6166180938375234,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-008.mp4",
+        "mos": 0.7743784818355011,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-009.mp4",
+        "mos": 0.9132747945368567,
+        "level": 5
+    },
+    {
+        "img_path": "Hearthstone-010.mp4",
+        "mos": 0.7845276072021882,
+        "level": 4
+    },
+    {
+        "img_path": "Hearthstone-012.mp4",
+        "mos": 0.8054546445940145,
+        "level": 5
+    },
+    {
+        "img_path": "Hearthstone-013.mp4",
+        "mos": 0.6127523046542007,
+        "level": 4
+    },
+    {
+        "img_path": "HorizonZeroDawn-001.mp4",
+        "mos": 0.5987453297952643,
+        "level": 3
+    },
+    {
+        "img_path": "HorizonZeroDawn-002.mp4",
+        "mos": 0.6463134707859729,
+        "level": 4
+    },
+    {
+        "img_path": "HorizonZeroDawn-003.mp4",
+        "mos": 0.6600475409701795,
+        "level": 4
+    },
+    {
+        "img_path": "HorizonZeroDawn-004.mp4",
+        "mos": 0.5660534537779084,
+        "level": 3
+    },
+    {
+        "img_path": "HorizonZeroDawn-005.mp4",
+        "mos": 0.8132894090862824,
+        "level": 5
+    },
+    {
+        "img_path": "HorizonZeroDawn-006.mp4",
+        "mos": 0.6193748121250101,
+        "level": 4
+    },
+    {
+        "img_path": "HorizonZeroDawn-007.mp4",
+        "mos": 0.5092385102486715,
+        "level": 3
+    },
+    {
+        "img_path": "HorizonZeroDawn-008.mp4",
+        "mos": 0.590829647008557,
+        "level": 3
+    },
+    {
+        "img_path": "HorizonZeroDawn-009.mp4",
+        "mos": 0.7717117265736158,
+        "level": 4
+    },
+    {
+        "img_path": "ImperatorRome-001.mp4",
+        "mos": 0.9039168823244327,
+        "level": 5
+    },
+    {
+        "img_path": "Kenshi-002.mp4",
+        "mos": 0.7442540046332863,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-003.mp4",
+        "mos": 0.7234479155085489,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-004.mp4",
+        "mos": 0.6792344841147088,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-005.mp4",
+        "mos": 0.6847320069777617,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-006.mp4",
+        "mos": 0.582562291738634,
+        "level": 3
+    },
+    {
+        "img_path": "Kenshi-007.mp4",
+        "mos": 0.7106480505183986,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-008.mp4",
+        "mos": 0.5899552711025561,
+        "level": 3
+    },
+    {
+        "img_path": "Kenshi-009.mp4",
+        "mos": 0.6678975462567479,
+        "level": 4
+    },
+    {
+        "img_path": "Kenshi-010.mp4",
+        "mos": 0.5609442302122848,
+        "level": 3
+    },
+    {
+        "img_path": "KibyStar-001.mp4",
+        "mos": 0.5840678552154244,
+        "level": 3
+    },
+    {
+        "img_path": "KibyStar-002.mp4",
+        "mos": 0.49572025352409227,
+        "level": 3
+    },
+    {
+        "img_path": "KibyStar-003.mp4",
+        "mos": 0.6768997871404553,
+        "level": 4
+    },
+    {
+        "img_path": "KibyStar-004.mp4",
+        "mos": 0.5584660935870308,
+        "level": 3
+    },
+    {
+        "img_path": "KibyStar-005.mp4",
+        "mos": 0.7332688190852213,
+        "level": 4
+    },
+    {
+        "img_path": "KibyStar-006.mp4",
+        "mos": 0.7395671699268046,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-001.mp4",
+        "mos": 0.5591477286836439,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-002.mp4",
+        "mos": 0.7016931636649333,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-005.mp4",
+        "mos": 0.8809559616491835,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-006.mp4",
+        "mos": 0.8904236619073193,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-008.mp4",
+        "mos": 0.9867097752279399,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-009.mp4",
+        "mos": 0.9846585516023304,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-010.mp4",
+        "mos": 0.9875795120140061,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-013.mp4",
+        "mos": 0.9330914463448933,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-016.mp4",
+        "mos": 0.9365572695368108,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-017.mp4",
+        "mos": 0.9293793709270951,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-018.mp4",
+        "mos": 0.9741214050682628,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-019.mp4",
+        "mos": 0.9329461709359474,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-020.mp4",
+        "mos": 0.9379889118332035,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-021.mp4",
+        "mos": 0.8926887879513864,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-022.mp4",
+        "mos": 0.92731694225753,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-024.mp4",
+        "mos": 0.816547120270294,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-025.mp4",
+        "mos": 0.8149068283573785,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-027.mp4",
+        "mos": 0.7588211748183482,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-028.mp4",
+        "mos": 0.6557841233053894,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-029.mp4",
+        "mos": 0.5076847316624102,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-030.mp4",
+        "mos": 0.8299999955479772,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-032.mp4",
+        "mos": 0.8507425237837786,
+        "level": 5
+    },
+    {
+        "img_path": "LOL-033.mp4",
+        "mos": 0.4646774778412358,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-035.mp4",
+        "mos": 0.5375378096672077,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-036.mp4",
+        "mos": 0.6061441661087809,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-037.mp4",
+        "mos": 0.44848698979067675,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-038.mp4",
+        "mos": 0.5525915630904835,
+        "level": 3
+    },
+    {
+        "img_path": "LOL-041.mp4",
+        "mos": 0.38053854265942727,
+        "level": 2
+    },
+    {
+        "img_path": "LOL-042.mp4",
+        "mos": 0.31950478228131846,
+        "level": 2
+    },
+    {
+        "img_path": "LOL-045.mp4",
+        "mos": 0.31273205397855297,
+        "level": 2
+    },
+    {
+        "img_path": "LOL-050.mp4",
+        "mos": 0.7314961378133299,
+        "level": 4
+    },
+    {
+        "img_path": "LOL-051.mp4",
+        "mos": 0.40403709281520145,
+        "level": 3
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-001.mp4",
+        "mos": 0.6576866989292051,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-002.mp4",
+        "mos": 0.6983086559704734,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-003.mp4",
+        "mos": 0.6360238611124193,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-004.mp4",
+        "mos": 0.6472891874441874,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-005.mp4",
+        "mos": 0.7281972210492985,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-006.mp4",
+        "mos": 0.6059341695396603,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-008.mp4",
+        "mos": 0.7012681736444333,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-009.mp4",
+        "mos": 0.5850536978115818,
+        "level": 3
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-011.mp4",
+        "mos": 0.8344183630389281,
+        "level": 5
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-012.mp4",
+        "mos": 0.7230001618220173,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-013.mp4",
+        "mos": 0.6576289740198004,
+        "level": 4
+    },
+    {
+        "img_path": "LegendZeldaBreathWild-015.mp4",
+        "mos": 0.5822934624017365,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-001.mp4",
+        "mos": 0.7427806516727627,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-002.mp4",
+        "mos": 0.601210722198651,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-003.mp4",
+        "mos": 0.6186721825948569,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-004.mp4",
+        "mos": 0.5334617537615063,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-005.mp4",
+        "mos": 0.6586972099990376,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-010.mp4",
+        "mos": 0.7552516305990485,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-012.mp4",
+        "mos": 0.7643495795643456,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-013.mp4",
+        "mos": 0.7943121564809651,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-025.mp4",
+        "mos": 0.3507563505256919,
+        "level": 2
+    },
+    {
+        "img_path": "Minecraft-030.mp4",
+        "mos": 0.42220911114058746,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-031.mp4",
+        "mos": 0.720482304916313,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-034.mp4",
+        "mos": 0.5463470901795877,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-035.mp4",
+        "mos": 0.5434327900572955,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-036.mp4",
+        "mos": 0.5876328063755459,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-038.mp4",
+        "mos": 0.8086876819142109,
+        "level": 5
+    },
+    {
+        "img_path": "Minecraft-039.mp4",
+        "mos": 0.4351158783705364,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-043.mp4",
+        "mos": 0.5629646762941138,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-046.mp4",
+        "mos": 0.36422404706475603,
+        "level": 2
+    },
+    {
+        "img_path": "Minecraft-048.mp4",
+        "mos": 0.6967243348259036,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-050.mp4",
+        "mos": 0.3178754347438456,
+        "level": 2
+    },
+    {
+        "img_path": "Minecraft-052.mp4",
+        "mos": 0.30236150077815893,
+        "level": 2
+    },
+    {
+        "img_path": "Minecraft-053.mp4",
+        "mos": 0.28497816273261256,
+        "level": 2
+    },
+    {
+        "img_path": "Minecraft-054.mp4",
+        "mos": 0.6125898173835065,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-057.mp4",
+        "mos": 0.7319782534370637,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-061.mp4",
+        "mos": 0.7057750935020619,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-067.mp4",
+        "mos": 0.5078665330810114,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-075.mp4",
+        "mos": 0.425860520415891,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-080.mp4",
+        "mos": 0.5817237475808915,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-088.mp4",
+        "mos": 0.636033014226676,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-089.mp4",
+        "mos": 0.5920785276945574,
+        "level": 3
+    },
+    {
+        "img_path": "Minecraft-093.mp4",
+        "mos": 0.6849327436011723,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-095.mp4",
+        "mos": 0.633113799035417,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-099.mp4",
+        "mos": 0.7289729465448322,
+        "level": 4
+    },
+    {
+        "img_path": "Minecraft-100.mp4",
+        "mos": 0.6014893561885346,
+        "level": 4
+    },
+    {
+        "img_path": "MountBlade-001.mp4",
+        "mos": 0.627191932321125,
+        "level": 4
+    },
+    {
+        "img_path": "MountBlade-003.mp4",
+        "mos": 0.7010479899529357,
+        "level": 4
+    },
+    {
+        "img_path": "MountBlade-004.mp4",
+        "mos": 0.6939832018771034,
+        "level": 4
+    },
+    {
+        "img_path": "MountBlade-005.mp4",
+        "mos": 0.3935320867902682,
+        "level": 2
+    },
+    {
+        "img_path": "MountBlade-007.mp4",
+        "mos": 0.6711744926554268,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-001.mp4",
+        "mos": 0.515871699473382,
+        "level": 3
+    },
+    {
+        "img_path": "NBA-003.mp4",
+        "mos": 0.7388788594215392,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-004.mp4",
+        "mos": 0.6529211933570459,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-005.mp4",
+        "mos": 0.7420132096154931,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-006.mp4",
+        "mos": 0.7694556811009424,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-007.mp4",
+        "mos": 0.8034915752540176,
+        "level": 5
+    },
+    {
+        "img_path": "NBA-008.mp4",
+        "mos": 0.6796610286259395,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-009.mp4",
+        "mos": 0.6771266014297663,
+        "level": 4
+    },
+    {
+        "img_path": "NBA-010.mp4",
+        "mos": 0.43237362084153963,
+        "level": 3
+    },
+    {
+        "img_path": "NBA-011.mp4",
+        "mos": 0.357112435697544,
+        "level": 2
+    },
+    {
+        "img_path": "NBA-012.mp4",
+        "mos": 0.4285572653733813,
+        "level": 3
+    },
+    {
+        "img_path": "NBA-013.mp4",
+        "mos": 0.880167925151459,
+        "level": 5
+    },
+    {
+        "img_path": "Naruto-001.mp4",
+        "mos": 0.5731062391427981,
+        "level": 3
+    },
+    {
+        "img_path": "Naruto-002.mp4",
+        "mos": 0.5830701379958054,
+        "level": 3
+    },
+    {
+        "img_path": "Naruto-003.mp4",
+        "mos": 0.5641923843762908,
+        "level": 3
+    },
+    {
+        "img_path": "Naruto-004.mp4",
+        "mos": 0.5432665463142723,
+        "level": 3
+    },
+    {
+        "img_path": "NeedForSpeed-001.mp4",
+        "mos": 0.8101296008258974,
+        "level": 5
+    },
+    {
+        "img_path": "NeedForSpeed-002.mp4",
+        "mos": 0.8228378722896709,
+        "level": 5
+    },
+    {
+        "img_path": "NeedForSpeed-003.mp4",
+        "mos": 0.8920568594571537,
+        "level": 5
+    },
+    {
+        "img_path": "OctopathTraveler-001.mp4",
+        "mos": 0.6765434198471729,
+        "level": 4
+    },
+    {
+        "img_path": "Onmyoji-002.mp4",
+        "mos": 0.9261655439339188,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-003.mp4",
+        "mos": 0.8632694238125431,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-004.mp4",
+        "mos": 0.8498165753275021,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-005.mp4",
+        "mos": 0.8900300544965076,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-007.mp4",
+        "mos": 0.7762115769393512,
+        "level": 4
+    },
+    {
+        "img_path": "Onmyoji-008.mp4",
+        "mos": 0.8088329845307066,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-009.mp4",
+        "mos": 0.8386080582890603,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-010.mp4",
+        "mos": 0.8851006451483157,
+        "level": 5
+    },
+    {
+        "img_path": "Onmyoji-011.mp4",
+        "mos": 0.9013620559388374,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-001.mp4",
+        "mos": 0.6904530161565327,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-003.mp4",
+        "mos": 0.9498460535851573,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-004.mp4",
+        "mos": 0.907105858122174,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-006.mp4",
+        "mos": 0.8454545573128563,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-007.mp4",
+        "mos": 0.8152475008017471,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-008.mp4",
+        "mos": 0.9594506388075732,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-010.mp4",
+        "mos": 0.9248540355678313,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-011.mp4",
+        "mos": 0.8443179858436508,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-012.mp4",
+        "mos": 0.6119853963280164,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-013.mp4",
+        "mos": 0.7877817635105467,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-014.mp4",
+        "mos": 0.7456201078320498,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-015.mp4",
+        "mos": 0.11900415098834935,
+        "level": 1
+    },
+    {
+        "img_path": "Overwatch-016.mp4",
+        "mos": 0.8151275345858524,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-017.mp4",
+        "mos": 0.8545059038297734,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-019.mp4",
+        "mos": 0.8425955294706061,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-020.mp4",
+        "mos": 0.6166225187273788,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-022.mp4",
+        "mos": 0.847071783327771,
+        "level": 5
+    },
+    {
+        "img_path": "Overwatch-024.mp4",
+        "mos": 0.5915597782509945,
+        "level": 3
+    },
+    {
+        "img_path": "Overwatch-025.mp4",
+        "mos": 0.794372978332349,
+        "level": 4
+    },
+    {
+        "img_path": "Overwatch-026.mp4",
+        "mos": 0.8749439824542605,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-001.mp4",
+        "mos": 0.2855266939075325,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-002.mp4",
+        "mos": 0.412662702240425,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-009.mp4",
+        "mos": 0.5193970503368202,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-011.mp4",
+        "mos": 0.6076825900395385,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-013.mp4",
+        "mos": 0.3706888085749554,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-016.mp4",
+        "mos": 0.734213753253456,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-021.mp4",
+        "mos": 0.7352078709913882,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-026.mp4",
+        "mos": 0.7086910797841115,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-027.mp4",
+        "mos": 0.7062860545239256,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-028.mp4",
+        "mos": 0.6393354845796384,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-034.mp4",
+        "mos": 0.7974567041867969,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-037.mp4",
+        "mos": 0.32939970956154896,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-038.mp4",
+        "mos": 0.46662062441931845,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-039.mp4",
+        "mos": 0.4562025925913553,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-041.mp4",
+        "mos": 0.5098056545471435,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-042.mp4",
+        "mos": 0.4704817968836222,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-044.mp4",
+        "mos": 0.37143737630396345,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-051.mp4",
+        "mos": 0.810200164626337,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-052.mp4",
+        "mos": 0.8239209669914707,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-055.mp4",
+        "mos": 0.7416509637318651,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-056.mp4",
+        "mos": 0.5590210906588196,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-057.mp4",
+        "mos": 0.5603580422356156,
+        "level": 3
+    },
+    {
+        "img_path": "PUBG-062.mp4",
+        "mos": 0.8242999635946145,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-066.mp4",
+        "mos": 0.3108756218400987,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-067.mp4",
+        "mos": 0.3681501497899779,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-072.mp4",
+        "mos": 0.8132290737270761,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-074.mp4",
+        "mos": 0.7644357634407746,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-079.mp4",
+        "mos": 0.6550314965999133,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-083.mp4",
+        "mos": 0.8277249514662686,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-088.mp4",
+        "mos": 0.7309569509317957,
+        "level": 4
+    },
+    {
+        "img_path": "PUBG-089.mp4",
+        "mos": 0.9548807699738251,
+        "level": 5
+    },
+    {
+        "img_path": "PUBG-090.mp4",
+        "mos": 0.322263198705844,
+        "level": 2
+    },
+    {
+        "img_path": "PUBG-092.mp4",
+        "mos": 0.49335005220822387,
+        "level": 3
+    },
+    {
+        "img_path": "PlantZombies-001.mp4",
+        "mos": 0.44887012042650726,
+        "level": 3
+    },
+    {
+        "img_path": "PlantZombies-002.mp4",
+        "mos": 0.6875527604506755,
+        "level": 4
+    },
+    {
+        "img_path": "PlantZombies-004.mp4",
+        "mos": 0.5175183630054149,
+        "level": 3
+    },
+    {
+        "img_path": "PlantZombies-005.mp4",
+        "mos": 0.7578245867179211,
+        "level": 4
+    },
+    {
+        "img_path": "Pokemon-003.mp4",
+        "mos": 0.8668183881934267,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-004.mp4",
+        "mos": 0.817771829220833,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-005.mp4",
+        "mos": 0.9004040879271964,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-006.mp4",
+        "mos": 0.8671078803680985,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-007.mp4",
+        "mos": 0.909110397714934,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-008.mp4",
+        "mos": 0.8804904068886822,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-012.mp4",
+        "mos": 0.968441040889667,
+        "level": 5
+    },
+    {
+        "img_path": "Pokemon-014.mp4",
+        "mos": 0.5232508689930291,
+        "level": 3
+    },
+    {
+        "img_path": "Pokemon-015.mp4",
+        "mos": 0.7488541855971363,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-051.mp4",
+        "mos": 0.4141348995354288,
+        "level": 3
+    },
+    {
+        "img_path": "RDR-052.mp4",
+        "mos": 0.745553494961036,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-053.mp4",
+        "mos": 0.5094951853680858,
+        "level": 3
+    },
+    {
+        "img_path": "RDR-054.mp4",
+        "mos": 0.73720939622586,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-055.mp4",
+        "mos": 0.6549139608778339,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-056.mp4",
+        "mos": 0.5174559500099661,
+        "level": 3
+    },
+    {
+        "img_path": "RDR-057.mp4",
+        "mos": 0.6706360995069802,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-058.mp4",
+        "mos": 0.5524832486180075,
+        "level": 3
+    },
+    {
+        "img_path": "RDR-059.mp4",
+        "mos": 0.6437176595298564,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-060.mp4",
+        "mos": 0.5906592272030065,
+        "level": 3
+    },
+    {
+        "img_path": "RDR-071.mp4",
+        "mos": 0.7132841547834251,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-072.mp4",
+        "mos": 0.6226036717983452,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-073.mp4",
+        "mos": 0.6377445894267517,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-074.mp4",
+        "mos": 0.706671635885254,
+        "level": 4
+    },
+    {
+        "img_path": "RDR-075.mp4",
+        "mos": 0.7601752656783293,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-001.mp4",
+        "mos": 0.7827732658856088,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-002.mp4",
+        "mos": 0.7441110443471587,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-004.mp4",
+        "mos": 0.6164513688782899,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-006.mp4",
+        "mos": 0.734343659702309,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-007.mp4",
+        "mos": 0.6370289444251467,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-008.mp4",
+        "mos": 0.6962055238692194,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-009.mp4",
+        "mos": 0.7174875876915546,
+        "level": 4
+    },
+    {
+        "img_path": "RDR2-015.mp4",
+        "mos": 0.8447477143070087,
+        "level": 5
+    },
+    {
+        "img_path": "ResidentEvil-002.mp4",
+        "mos": 0.5874611723381623,
+        "level": 3
+    },
+    {
+        "img_path": "ResidentEvil-003.mp4",
+        "mos": 0.8021454899793584,
+        "level": 5
+    },
+    {
+        "img_path": "ResidentEvil-004.mp4",
+        "mos": 0.9427997979258897,
+        "level": 5
+    },
+    {
+        "img_path": "ResidentEvil-005.mp4",
+        "mos": 0.8069002842527935,
+        "level": 5
+    },
+    {
+        "img_path": "ResidentEvil-007.mp4",
+        "mos": 0.6465751080270333,
+        "level": 4
+    },
+    {
+        "img_path": "ResidentEvil-008.mp4",
+        "mos": 0.6395566076458523,
+        "level": 4
+    },
+    {
+        "img_path": "Roblox-001.mp4",
+        "mos": 0.7515813399519788,
+        "level": 4
+    },
+    {
+        "img_path": "Roblox-003.mp4",
+        "mos": 0.5074092607027941,
+        "level": 3
+    },
+    {
+        "img_path": "Roblox-004.mp4",
+        "mos": 0.6869223839537371,
+        "level": 4
+    },
+    {
+        "img_path": "Roblox-006.mp4",
+        "mos": 0.5674059358163928,
+        "level": 3
+    },
+    {
+        "img_path": "Roblox-007.mp4",
+        "mos": 0.6212316042146891,
+        "level": 4
+    },
+    {
+        "img_path": "Roblox-008.mp4",
+        "mos": 0.27420339120614134,
+        "level": 2
+    },
+    {
+        "img_path": "RocketLeague-001.mp4",
+        "mos": 0.780729083675621,
+        "level": 4
+    },
+    {
+        "img_path": "RocketLeague-002.mp4",
+        "mos": 0.6443918700734401,
+        "level": 4
+    },
+    {
+        "img_path": "RocketLeague-003.mp4",
+        "mos": 0.7331524346037854,
+        "level": 4
+    },
+    {
+        "img_path": "RocketLeague-006.mp4",
+        "mos": 0.6016408471646125,
+        "level": 4
+    },
+    {
+        "img_path": "RocketLeague-007.mp4",
+        "mos": 0.38813922019348523,
+        "level": 2
+    },
+    {
+        "img_path": "RocketLeague-008.mp4",
+        "mos": 0.46517274037072687,
+        "level": 3
+    },
+    {
+        "img_path": "SC2-001.mp4",
+        "mos": 0.7983638052484936,
+        "level": 4
+    },
+    {
+        "img_path": "SC2-002.mp4",
+        "mos": 0.6548906860683938,
+        "level": 4
+    },
+    {
+        "img_path": "SC2-003.mp4",
+        "mos": 0.7062094741355457,
+        "level": 4
+    },
+    {
+        "img_path": "SC2-004.mp4",
+        "mos": 0.5778002897123423,
+        "level": 3
+    },
+    {
+        "img_path": "SC2-005.mp4",
+        "mos": 0.7124755337306949,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-003.mp4",
+        "mos": 0.9075119694080322,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-004.mp4",
+        "mos": 0.8602456639278475,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-005.mp4",
+        "mos": 0.9796600699643017,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-007.mp4",
+        "mos": 0.9223783011536352,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-008.mp4",
+        "mos": 0.9615578344473992,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-010.mp4",
+        "mos": 0.928870706960546,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-011.mp4",
+        "mos": 0.887408940373329,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-012.mp4",
+        "mos": 0.8252251604859808,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-015.mp4",
+        "mos": 0.8228510870077763,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-016.mp4",
+        "mos": 0.8695296069625962,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-018.mp4",
+        "mos": 0.844416416276387,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-019.mp4",
+        "mos": 0.823283157292692,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-021.mp4",
+        "mos": 0.7908532017500761,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-023.mp4",
+        "mos": 0.7184388055059023,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-024.mp4",
+        "mos": 0.7392870502528467,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-025.mp4",
+        "mos": 0.8361222728104037,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-026.mp4",
+        "mos": 0.8072304615213579,
+        "level": 5
+    },
+    {
+        "img_path": "Sekiro-027.mp4",
+        "mos": 0.7461790625553534,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-028.mp4",
+        "mos": 0.7402518764838178,
+        "level": 4
+    },
+    {
+        "img_path": "Sekiro-029.mp4",
+        "mos": 0.7838780272405226,
+        "level": 4
+    },
+    {
+        "img_path": "SilentHunter-001.mp4",
+        "mos": 0.49944905161616776,
+        "level": 3
+    },
+    {
+        "img_path": "SpiderMan-001.mp4",
+        "mos": 0.7201074995868376,
+        "level": 4
+    },
+    {
+        "img_path": "Stellaris-001.mp4",
+        "mos": 0.9250860480284852,
+        "level": 5
+    },
+    {
+        "img_path": "StreetFighter-001.mp4",
+        "mos": 0.2827362021859816,
+        "level": 2
+    },
+    {
+        "img_path": "StreetFighter-003.mp4",
+        "mos": 0.17255348579930793,
+        "level": 1
+    },
+    {
+        "img_path": "StreetFighter-004.mp4",
+        "mos": 0.673658159664286,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-005.mp4",
+        "mos": 0.6243888006299423,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-006.mp4",
+        "mos": 0.14736486093688952,
+        "level": 1
+    },
+    {
+        "img_path": "StreetFighter-007.mp4",
+        "mos": 0.2636487766330066,
+        "level": 2
+    },
+    {
+        "img_path": "StreetFighter-009.mp4",
+        "mos": 0.6319950553109601,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-010.mp4",
+        "mos": 0.5785814370254064,
+        "level": 3
+    },
+    {
+        "img_path": "StreetFighter-012.mp4",
+        "mos": 0.6381791302977958,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-013.mp4",
+        "mos": 0.562856154379017,
+        "level": 3
+    },
+    {
+        "img_path": "StreetFighter-014.mp4",
+        "mos": 0.6296225352760829,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-015.mp4",
+        "mos": 0.6642650366207545,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-016.mp4",
+        "mos": 0.6450016445134307,
+        "level": 4
+    },
+    {
+        "img_path": "StreetFighter-017.mp4",
+        "mos": 0.5636451896481499,
+        "level": 3
+    },
+    {
+        "img_path": "StreetFighter-018.mp4",
+        "mos": 0.8065655815729837,
+        "level": 5
+    },
+    {
+        "img_path": "StreetFighter-019.mp4",
+        "mos": 0.8267942489620317,
+        "level": 5
+    },
+    {
+        "img_path": "StreetFighter-020.mp4",
+        "mos": 0.8285321322296911,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-001.mp4",
+        "mos": 0.9194268292446632,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-003.mp4",
+        "mos": 0.9206173074969762,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-004.mp4",
+        "mos": 0.9040468563787609,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-005.mp4",
+        "mos": 0.8952748387173806,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-007.mp4",
+        "mos": 0.4489492772656322,
+        "level": 3
+    },
+    {
+        "img_path": "SuperSmashBros-008.mp4",
+        "mos": 0.5609087385001912,
+        "level": 3
+    },
+    {
+        "img_path": "SuperSmashBros-009.mp4",
+        "mos": 0.9622691515238035,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-010.mp4",
+        "mos": 0.96098977144466,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-011.mp4",
+        "mos": 0.8604381558935352,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-012.mp4",
+        "mos": 0.991298776874705,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-013.mp4",
+        "mos": 0.8678231817795864,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-014.mp4",
+        "mos": 0.9133017524610273,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-015.mp4",
+        "mos": 0.9121388749387884,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-016.mp4",
+        "mos": 0.9584893220493201,
+        "level": 5
+    },
+    {
+        "img_path": "SuperSmashBros-017.mp4",
+        "mos": 0.663525097337513,
+        "level": 4
+    },
+    {
+        "img_path": "TheWitcher-001.mp4",
+        "mos": 0.7684878381667385,
+        "level": 4
+    },
+    {
+        "img_path": "TheWitcher-004.mp4",
+        "mos": 0.8362597272058977,
+        "level": 5
+    },
+    {
+        "img_path": "TheWitcher-005.mp4",
+        "mos": 0.8204302936972344,
+        "level": 5
+    },
+    {
+        "img_path": "TheWitcher-006.mp4",
+        "mos": 0.9270832346375395,
+        "level": 5
+    },
+    {
+        "img_path": "TheWitcher-007.mp4",
+        "mos": 0.7892771039431388,
+        "level": 4
+    },
+    {
+        "img_path": "TotalWar-002.mp4",
+        "mos": 0.8035670429440291,
+        "level": 5
+    },
+    {
+        "img_path": "TotalWar-006.mp4",
+        "mos": 0.7368054499342324,
+        "level": 4
+    },
+    {
+        "img_path": "TotalWar-008.mp4",
+        "mos": 0.8026839782361005,
+        "level": 5
+    },
+    {
+        "img_path": "TotalWar-015.mp4",
+        "mos": 0.8251321023382497,
+        "level": 5
+    },
+    {
+        "img_path": "TotalWar-019.mp4",
+        "mos": 0.8307941019684498,
+        "level": 5
+    },
+    {
+        "img_path": "WOW-001.mp4",
+        "mos": 0.3465667146915509,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-002.mp4",
+        "mos": 0.4729659400041433,
+        "level": 3
+    },
+    {
+        "img_path": "WOW-004.mp4",
+        "mos": 0.34225309464505865,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-005.mp4",
+        "mos": 0.3214838938643318,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-006.mp4",
+        "mos": 0.5630343859615728,
+        "level": 3
+    },
+    {
+        "img_path": "WOW-007.mp4",
+        "mos": 0.33337963905668183,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-008.mp4",
+        "mos": 0.2485863381383468,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-009.mp4",
+        "mos": 0.42928900278137117,
+        "level": 3
+    },
+    {
+        "img_path": "WOW-010.mp4",
+        "mos": 0.4135241726406745,
+        "level": 3
+    },
+    {
+        "img_path": "WOW-011.mp4",
+        "mos": 0.18135820988895981,
+        "level": 1
+    },
+    {
+        "img_path": "WOW-013.mp4",
+        "mos": 0.3331037193392226,
+        "level": 2
+    },
+    {
+        "img_path": "WOW-014.mp4",
+        "mos": 0.5802787196776115,
+        "level": 3
+    },
+    {
+        "img_path": "WorldTanks-001.mp4",
+        "mos": 0.7202700489496195,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-003.mp4",
+        "mos": 0.7513671464523736,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-005.mp4",
+        "mos": 0.6980935295985607,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-006.mp4",
+        "mos": 0.6904938759986462,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-007.mp4",
+        "mos": 0.7277916421330264,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-008.mp4",
+        "mos": 0.7784033528495883,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-009.mp4",
+        "mos": 0.7900639906004141,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-010.mp4",
+        "mos": 0.778074024310562,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-011.mp4",
+        "mos": 0.7910057164429883,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-012.mp4",
+        "mos": 0.6869943430239592,
+        "level": 4
+    },
+    {
+        "img_path": "WorldTanks-030.mp4",
+        "mos": 0.7184273197489186,
+        "level": 4
+    }
+]
