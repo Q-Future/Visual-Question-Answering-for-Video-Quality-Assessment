@@ -17,24 +17,26 @@
       <img style="width:100%" src="teaser.jpg">
   </div>
   
-  <h1>A-Bench: Are LMMs Masters at Evaluating AI-generated Images?</h1>
+  <h1>VQA²: Visual Question Answering for Video Quality Assessment</h1>
   
-_What do we expect from LMMs as AIGI evaluators and how do they perform?_
+_LMM for video quality interpreting and scoring_
 
   <div>
+      <a href="https://github.com/jzhws" target="_blank">Ziheng Jia</a><sup>1</sup><sup>*</sup>,
       <a href="https://zzc-1998.github.io/" target="_blank">Zicheng Zhang</a><sup>1</sup><sup>*</sup>,
-      <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>2</sup><sup>*</sup>,
+      <a href="https://github.com/2022qjy" target="_blank">Jiaying Qian</a><sup>1</sup>,
+      <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>2</sup>,
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=nDlEBJ8AAAAJ" target="_blank">Wei Sun</a><sup>1</sup>,
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>1</sup><sup>*</sup>,
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=85yWgIcAAAAJ" target="_blank">Yingjie Zhou</a><sup>1</sup>,
       <a href="https://scholar.google.com/citations?hl=zh-CN&user=nDlEBJ8AAAAJ" target="_blank">Wei Sun</a><sup>1</sup>,
   </div>
 
 <div>
-      <a href="https://minxiongkuo.github.io/" target="_blank">Xiongkuo Min</a><sup>1</sup>,
-      <a href="https://scholar.google.com/citations?hl=zh-CN&user=NSR4UkMAAAAJ" target="_blank">Zijian Chen</a><sup>1</sup>,
       <a href="https://scholar.google.ca/citations?user=Tq2hoMQAAAAJ&hl=en" target="_blank">Xiaohong Liu</a><sup>1</sup>,
       <a href="https://personal.ntu.edu.sg/wslin/Home.html" target="_blank">Weisi Lin</a><sup>2</sup>,
-      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>#</sup>
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=nDlEBJ8AAAAJ" target="_blank">Wei Sun</a><sup>1</sup><sup>#</sup>,
       
   </div>
   <div>
@@ -143,6 +145,7 @@ VQA²-Assistant(7B)-enhanced:https://huggingface.co/q-future/VQA-Assistant-llava
 If you consider this work interesting, please feel free to cite it in your work!
 
 ```bibtex
+
 @article{jia2024vqa,
   title={VQA $\^{} 2$: Visual Question Answering for Video Quality Assessment},
   author={Jia, Ziheng and Zhang, Zicheng and Qian, Jiaying and Wu, Haoning and Sun, Wei and Li, Chunyi and Liu, Xiaohong and Lin, Weisi and Zhai, Guangtao and Min, Xiongkuo},
