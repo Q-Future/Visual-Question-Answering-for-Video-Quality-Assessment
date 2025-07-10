@@ -49,11 +49,11 @@ _LMM for video quality interpreting and scoring_
 [ACMMM2025]Official code and dataset for VQA² series models and dataset
 
 ## Release News
-- **[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
-- **[2025/5/4] We have updated the video training pipeline for our model on Qwen2.5-VL (https://github.com/Q-Future/Visual-Question-Answering-for-Video-Quality-Assessment/tree/main/VQA%C2%B2-qwen2-5_finetune), which is 4× memory efficient compared to llava-ov (Thanks to the owners of repository https://github.com/2U1/Qwen2-VL-Finetune !). 
-- **[2025/5/4] We have updated a new version of enhanced VQA²-Assistant (llava-ov) with better output style and benchmark performance (https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced).
-- **[2025/1/31] We have released the refined code and more detailed dataset, making sure that the results in the paper are reproducible.
-- **[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
+- 🔥[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
+- 🔥[2025/5/4] We have updated the video training pipeline for our model on Qwen2.5-VL (https://github.com/Q-Future/Visual-Question-Answering-for-Video-Quality-Assessment/tree/main/VQA%C2%B2-qwen2-5_finetune), which is 4× memory efficient compared to llava-ov (Thanks to the owners of repository https://github.com/2U1/Qwen2-VL-Finetune !). 
+- 🔥[2025/5/4] We have updated a new version of enhanced VQA²-Assistant (llava-ov) with better output style and benchmark performance (https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced).
+- 🔥[2025/1/31] We have released the refined code and more detailed dataset, making sure that the results in the paper are reproducible.
+- 🔥[2024/12/20] We have replaced or fixed some code files in VQA_main to ensure the training process is reproducible. Now the training process can be implemented as long as your environment configuration strictly follows our guidelines！
 
 
 
