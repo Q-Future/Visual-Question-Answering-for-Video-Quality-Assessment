@@ -16,7 +16,7 @@
   
 _[ACMMM2025] Official code and dataset for VQA² series models and dataset_
 
-_LMM for video quality interpreting and scoring_
+_Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLaVA-Onevision</a>_
 
   <div>
       <a href="https://github.com/jzhws" target="_blank">Ziheng Jia</a><sup>1</sup><sup>*</sup>,
@@ -74,9 +74,9 @@ Install dependencies:
 cd VQA_main
 conda create -n VQA python=3.10 -y
 conda activate VQA
-pip install --upgrade pip  # Enable PEP 660 support.
+pip install --upgrade pip
 pip install -e ".[train]"
-pip install pytorchvideo #For slowfast base model download
+pip install pytorchvideo
 pip install transformers==4.44.0 #Change the transformers version
 ```
 Fix：[2024.12.20] You may have to download the initialized slowfast.pth (https://huggingface.co/JZHWS/slowfast) and load the pretrained model in "llava\model\slowfast\builder.py"(line 11) to make sure the model initialization is implementable since the model downloaded through pytorchvideo includes meta tensors.
