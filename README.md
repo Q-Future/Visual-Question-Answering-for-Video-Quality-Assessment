@@ -62,11 +62,11 @@ _LMM for video quality interpreting and scoring_
 
   
 ## 🔖 TODO：
-- [√] Release testing and training code.
-- [√] Release model weights.
-- [√] Release the stage-2 instruction dataset.
-- [√] Release the stage-3 instruction dataset.
-- [√] Release the training code on the famous Qwen2.5-VL.
+- 🎯[√] Release testing and training code.
+- 🎯[√] Release model weights.
+- 🎯[√] Release the stage-2 instruction dataset.
+- 🎯[√] Release the stage-3 instruction dataset.
+- 🎯[√] Release the training code on the famous Qwen2.5-VL.
 
 ## Quicker Start:
 Install dependencies:
