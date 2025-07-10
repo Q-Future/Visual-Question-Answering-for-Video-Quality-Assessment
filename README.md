@@ -8,10 +8,6 @@
     <a href="https://huggingface.co/datasets/q-future/A-Bench"><img src="https://img.shields.io/badge/Model-Release-orange"></a>
    </div>
 
-  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="intro_01(1).png">
-  </div>
-
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="teaser.jpg">
   </div>
@@ -38,6 +34,11 @@ _LMM for video quality interpreting and scoring_
       <a href="https://scholar.google.com/citations?user=91sjuWIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiongkuo Min</a><sup>1</sup><sup>#</sup>,
       
   </div>
+
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="intro_01(1).png">
+  </div>
+  
   <div>
   <sup>1</sup>Shanghai Jiaotong University,  <sup>2</sup>Nanyang Technological University
        </div>   
