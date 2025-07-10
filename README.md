@@ -157,7 +157,7 @@ If you consider this work interesting, please feel free to cite it in your work!
 @article{zhang2024q,
   title={Q-Bench-Video: Benchmarking the Video Quality Understanding of LMMs},
   author={Zhang, Zicheng and Jia, Ziheng and Wu, Haoning and Li, Chunyi and Chen, Zijian and Zhou, Yingjie and Sun, Wei and Liu, Xiaohong and Min, Xiongkuo and Lin, Weisi and others},
-  journal={arXiv preprint arXiv:2409.20063},
+  journal={CVPR 2025},
   year={2024}
 }
 ```
