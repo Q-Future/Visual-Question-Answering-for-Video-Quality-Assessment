@@ -43,6 +43,7 @@ _LMM for video quality interpreting and scoring_
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
+<div align="left">
 [ACMMM2025]Official code and dataset for VQA² series models and dataset
 ## Release News
 - **[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
