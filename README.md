@@ -8,7 +8,35 @@
   <h1> VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
 
 <div>
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="teaser.jpg">
+  </div>
+  
+  <h1>A-Bench: Are LMMs Masters at Evaluating AI-generated Images?</h1>
+  
+_What do we expect from LMMs as AIGI evaluators and how do they perform?_
 
+  <div>
+      <a href="https://zzc-1998.github.io/" target="_blank">Zicheng Zhang</a><sup>1</sup><sup>*</sup>,
+      <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>2</sup><sup>*</sup>,
+      <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>1</sup><sup>*</sup>,
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=85yWgIcAAAAJ" target="_blank">Yingjie Zhou</a><sup>1</sup>,
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=nDlEBJ8AAAAJ" target="_blank">Wei Sun</a><sup>1</sup>,
+  </div>
+
+<div>
+      <a href="https://minxiongkuo.github.io/" target="_blank">Xiongkuo Min</a><sup>1</sup>,
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=NSR4UkMAAAAJ" target="_blank">Zijian Chen</a><sup>1</sup>,
+      <a href="https://scholar.google.ca/citations?user=Tq2hoMQAAAAJ&hl=en" target="_blank">Xiaohong Liu</a><sup>1</sup>,
+      <a href="https://personal.ntu.edu.sg/wslin/Home.html" target="_blank">Weisi Lin</a><sup>2</sup>,
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>#</sup>
+      
+  </div>
+  <div>
+  <sup>1</sup>Shanghai Jiaotong University,  <sup>2</sup>Nanyang Technological University
+       </div>   
+<div>
+<sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
 [ACMMM2025]Official code and dataset for VQA² series models and dataset
 ## Release News
 - **[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
