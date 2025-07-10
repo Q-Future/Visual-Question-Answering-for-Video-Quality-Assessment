@@ -1,14 +1,18 @@
 <div align="center">
-<div>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FQ-Future%2FVisual-Question-Answering-for-Video-Quality-Assessment&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-<a href="https://arxiv.org/abs/2411.03795"><img src="https://img.shields.io/badge/Arxiv-2411:03795-red"></a>
-  
-</div>
-</div>
     
-  <h1> VQA²-Visual-Question-Answering-for-Video-Quality-Assessment</h1>
+    
+ <div>
 
-<div>
+<a href="https://github.com/Q-Future/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FA-Bench&count_bg=%23E97EBA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
+    <a href="https://github.com/Q-Future/A-Bench"><img src="https://img.shields.io/github/stars/Q-Future/A-Bench"/></a>
+    <a href="https://arxiv.org/pdf/2406.03070"><img src="https://img.shields.io/badge/Arxiv-2406.03070-blue"/></a>
+    <a href="https://huggingface.co/datasets/q-future/A-Bench"><img src="https://img.shields.io/badge/Data-Release-green"></a>
+   </div>
+
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="a-bench.png">
+  </div>
+
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="teaser.jpg">
   </div>
@@ -38,6 +42,7 @@ _What do we expect from LMMs as AIGI evaluators and how do they perform?_
        </div>   
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
+   </div>
 [ACMMM2025]Official code and dataset for VQA² series models and dataset
 ## Release News
 - **[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
