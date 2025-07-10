@@ -50,6 +50,7 @@ _Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLa
     
 
 ## Release News
+- 🔥[2025/7/10] Now the <a href="https://github.com/jzhws" target="_blank">VQA²-Assistant(7B)-enhanced</a> can handle video/image quality scoring/interpreting in an unified model.
 - 🔥[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
 - 🔥[2025/5/4] We have updated the video training pipeline for our model on Qwen2.5-VL (https://github.com/Q-Future/Visual-Question-Answering-for-Video-Quality-Assessment/tree/main/VQA%C2%B2-qwen2-5_finetune), which is 4× memory efficient compared to llava-ov (Thanks to the owners of repository https://github.com/2U1/Qwen2-VL-Finetune !). 
 - 🔥[2025/5/4] We have updated a new version of enhanced VQA²-Assistant (llava-ov) with better output style and benchmark performance (https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced).
@@ -77,47 +78,40 @@ conda activate VQA
 pip install --upgrade pip
 pip install -e ".[train]"
 pip install pytorchvideo
-pip install transformers==4.44.0 #Change the transformers version
+pip install transformers==4.44.0 
 ```
-Fix：[2024.12.20] You may have to download the initialized slowfast.pth (https://huggingface.co/JZHWS/slowfast) and load the pretrained model in "llava\model\slowfast\builder.py"(line 11) to make sure the model initialization is implementable since the model downloaded through pytorchvideo includes meta tensors.
+Fix：[2024.12.20] Please download the initialized slowfast.pth (https://huggingface.co/JZHWS/slowfast) and load the pretrained model in "llava\model\slowfast\builder.py"(line 11) to make sure the model initialization is implementable since the model downloaded through pytorchvideo includes meta tensors.
 
-NOTE!!!
-Replace the 
-
-your_env_dir/VQA/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py 
-
-to 
-
-VQA_main/modeling_qwen2.py (we set some customized parameters in it).
 
 ## VQA² Scorers: 
-cd VQA_main
+cd quality_scoring
 
 For UGC-Video Scoring:
 ```shell
-python ./llava/eval/model_score_UGC.py
+python ./llava/eval/model_score_video.py (for video)
+
+python ./llava/eval/model_score_image.py (for image)
 ```
-For Streaming-Video Scoring:
-```shell
-python ./llava/eval/model_score_streaming.py
-```
+
 ## VQA² Assistant: 
-cd VQA_benchmark_test
+cd quality_interpreting
 
 For Q-bench-video Evaluation:
 ```shell
 python ./llava/eval/model_vqa_q_bench_video.py
 ```
-For Simple Q&A:
+
+For image Evaluation:
 ```shell
-python ./llava/eval/model_conv.py
+python ./llava/eval/model_vqa_image.py
 ```
+
 Gradio demo:
 ```shell
 python ./app.py #Note that the minimum GPU requirement is 3090(24G)*1.
 ```
 ## Training
-cd VQA_main
+cd quality_interpreting
 ```shell
 chmod +x ./scripts/train/finetune_VQA².sh
 ```
@@ -141,7 +135,7 @@ VQA²-Streaming-Scorer(7B): https://huggingface.co/q-future/VQA-Streaming-Scorer
 
 VQA²-Assistant(7B): https://huggingface.co/q-future/VQA-Assistant-llava_qwen (q-future/VQA-Assistant-llava_qwen)
 
-VQA²-Assistant(7B)-enhanced:https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced (q-future/VQA-Assistant-llava-qwen-enhanced)
+VQA²-Assistant(7B)-enhanced (for video and images): https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced (q-future/VQA-Assistant-llava-qwen-enhanced)
 
 ## Citation
 
