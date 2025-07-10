@@ -19,7 +19,9 @@
   
   <h1>VQA²: Visual Question Answering for Video Quality Assessment</h1>
   
-_[ACMMM2025]Official code and dataset for VQA² series models and dataset（LMM for video quality interpreting and scoring）_
+_[ACMMM2025] Official code and dataset for VQA² series models and dataset_
+
+_LMM for video quality interpreting and scoring_
 
   <div>
       <a href="https://github.com/jzhws" target="_blank">Ziheng Jia</a><sup>1</sup><sup>*</sup>,
