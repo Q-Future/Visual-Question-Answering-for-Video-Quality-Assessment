@@ -189,20 +189,14 @@ class LlavaMetaForCausalLM(ABC):
         return image_feature
 
     def encode_images(self, images):
+        # for p in self.get_model().get_vision_tower().parameters():
+        #     print(p.numel())
         image_features = self.get_model().get_vision_tower()(images[1])
-        # for p in self.get_model().mm_projector.parameters():
-        #     if p.numel() == 0:
-        #         print(p)
-        #     if torch.isnan(p).any():
-        # for param in self.get_model().mm_projector.parameters():
-        #     if param.dtype == torch.float16:
-        #         print(param)
-        #         print(p)
         # image_features = self.get_model().vision_resampler(image_features, images=images)
         image_features = self.get_model().mm_projector(image_features)
-        slowfast_features = self.get_model().slowfast(images[0]).half()
+        slowfast_features = self.get_model().slowfast(images[0])
         slowfast_features = self.get_model().slowfast_projector(slowfast_features)
-        return image_features, slowfast_features
+        return image_features,slowfast_features
 
     def encode_multimodals(self, videos_or_images, video_idx_in_batch, split_sizes=None):
         videos_or_images_features = self.get_model().get_vision_tower()(videos_or_images)
@@ -241,9 +235,9 @@ class LlavaMetaForCausalLM(ABC):
         if isinstance(modalities, str):
             modalities = [modalities]
         # IMAGE = images[1]
-        new_image_features=[]
-        images1=images
-        for NUM,images in enumerate(images1):
+        new_image_features = []
+        images1 = images
+        for images in images1:
             if type(images) is list or images.ndim == 5:
                 if type(images) is list:
                     images = [x.unsqueeze(0) if x.ndim == 3 else x for image in images for x in image]
@@ -352,7 +346,7 @@ class LlavaMetaForCausalLM(ABC):
                                 else:
                                     raise ValueError("vision_tower_image_size is not found in the vision tower.")
                                 try:
-                                    num_patch_width, num_patch_height = get_anyres_image_grid_shape(image_sizes[NUM], self.config.image_grid_pinpoints, vision_tower_image_size)
+                                    num_patch_width, num_patch_height = get_anyres_image_grid_shape(image_sizes[image_idx], self.config.image_grid_pinpoints, vision_tower_image_size)
                                 except Exception as e:
                                     rank0_print(f"Error: {e}")
                                     num_patch_width, num_patch_height = 2, 2
@@ -370,7 +364,7 @@ class LlavaMetaForCausalLM(ABC):
                                 unit = image_feature.shape[2]
                                 image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
                                 image_feature = image_feature.flatten(1, 2).flatten(2, 3)
-                                image_feature = unpad_image(image_feature, image_sizes[NUM])
+                                image_feature = unpad_image(image_feature, image_sizes[image_idx])
                                 c, h, w = image_feature.shape
                                 times = math.sqrt(h * w / (max_num_patches * unit**2))
                                 if times > 1.1:
@@ -383,7 +377,7 @@ class LlavaMetaForCausalLM(ABC):
                             elif "unpad" in mm_patch_merge_type:
                                 image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
                                 image_feature = image_feature.flatten(1, 2).flatten(2, 3)
-                                image_feature = unpad_image(image_feature, image_sizes[NUM])
+                                image_feature = unpad_image(image_feature, image_sizes[image_idx])
                                 image_feature = torch.cat((image_feature, self.model.image_newline[:, None, None].expand(*image_feature.shape[:-1], 1).to(image_feature.device)), dim=-1)
                                 image_feature = image_feature.flatten(1, 2).transpose(0, 1)
                                 new_image_features.append(image_feature+0*torch.cat((image_feature[:image_feature.shape[0]-encoded_slowfast_features.shape[0]], encoded_slowfast_features), 0))
@@ -407,7 +401,7 @@ class LlavaMetaForCausalLM(ABC):
 
                     raise ValueError(f"Unexpected mm_patch_merge_type: {self.config.mm_patch_merge_type}")
             else:
-
+                print(4)
                 image_features,slowfast_features = self.encode_images(images)
 
         # TODO: image start / end is not implemented here to support pretraining.
@@ -442,6 +436,9 @@ class LlavaMetaForCausalLM(ABC):
         # rank_print("Inserting Images embedding")
         for batch_idx, cur_input_ids in enumerate(input_ids):
             num_images = (cur_input_ids == IMAGE_TOKEN_INDEX).sum()
+            # print(len(image_features))
+            # print(num_images)
+            # print(num_images)
             # rank0_print(num_images)
             if num_images == 0:
                 cur_image_features = image_features[cur_image_idx]
@@ -468,6 +465,7 @@ class LlavaMetaForCausalLM(ABC):
             for i in range(num_images + 1):
                 cur_new_input_embeds.append(cur_input_embeds_no_im[i])
                 cur_new_labels.append(cur_labels_noim[i])
+
                 if i < num_images:
                     try:
                         cur_image_features = image_features[cur_image_idx]
