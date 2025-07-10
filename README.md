@@ -9,7 +9,7 @@
    </div>
 
 <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="teaser.jpg">
+      <img style="width:100%" src="teaser.png">
   </div>
   
   <h1>VQA²: Visual Question Answering for Video Quality Assessment</h1>
