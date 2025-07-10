@@ -46,6 +46,11 @@ _Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLa
   <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="intro_01(1).png">
   </div>
+
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="model.png">
+  </div>
+
 <div align="left">
     
 
