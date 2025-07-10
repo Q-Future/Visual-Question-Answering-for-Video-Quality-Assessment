@@ -91,7 +91,6 @@ Fix：[2024.12.20] Please download the initialized slowfast.pth (https://hugging
 ## VQA² Scorers: 
 cd quality_scoring
 
-For UGC-Video Scoring:
 ```shell
 python ./llava/eval/model_score_video.py (for video)
 
