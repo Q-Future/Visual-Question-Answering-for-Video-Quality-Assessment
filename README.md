@@ -35,9 +35,7 @@ _LMM for video quality interpreting and scoring_
       
   </div>
 
-  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="intro_01(1).png">
-  </div>
+
   
   <div>
   <sup>1</sup>Shanghai Jiaotong University,  <sup>2</sup>Nanyang Technological University
@@ -45,7 +43,9 @@ _LMM for video quality interpreting and scoring_
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
-   
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="intro_01(1).png">
+  </div>
 <div align="left">
     
 
