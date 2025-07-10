@@ -9,7 +9,7 @@
    </div>
 
   <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="a-bench.png">
+      <img style="width:100%" src="intro.pdf">
   </div>
 
 <div style="width: 100%; text-align: center; margin:auto;">
