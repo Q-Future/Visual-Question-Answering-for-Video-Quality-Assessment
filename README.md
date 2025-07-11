@@ -89,24 +89,27 @@ Fix：[2024.12.20] Please download the initialized slowfast.pth (https://hugging
 
 
 ## VQA² Scorers: 
-cd quality_scoring
 
 ```shell
+cd quality_scoring
+
 python ./llava/eval/model_score_video.py (for video)
 
 python ./llava/eval/model_score_image.py (for image)
 ```
 
 ## VQA² Assistant: 
-cd quality_interpreting
+
 
 For Q-bench-video Evaluation:
 ```shell
+cd quality_interpreting
 python ./llava/eval/model_vqa_q_bench_video.py
 ```
 
 For image Evaluation:
 ```shell
+cd quality_interpreting
 python ./llava/eval/model_vqa_image.py
 ```
 
@@ -115,8 +118,9 @@ Gradio demo:
 python ./app.py #Note that the minimum GPU requirement is 3090(24G)*1.
 ```
 ## Training
-cd llava_finetune
+
 ```shell
+cd llava_finetune
 chmod +x ./finetune_onevision.sh
 ```
 Then directly execute this .sh file.
