@@ -55,7 +55,7 @@ _Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLa
     
 
 ## Release News
-- 🔥[2025/7/10] Now the <a href="https://github.com/jzhws" target="_blank">VQA²-Assistant(7B)-enhanced</a> can handle video/image quality scoring/interpreting in an unified model.
+- 🔥[2025/7/10] Now the <a href="https://github.com/jzhws" target="_blank">VQA²-Assistant(7B)-enhanced</a> can handle video/image quality scoring/interpreting in a unified model.
 - 🔥[2025/7/5] Better than noting, our work has been finally accepted by ACMMM 2025.
 - 🔥[2025/5/4] We have updated the video training pipeline for our model on Qwen2.5-VL (https://github.com/Q-Future/Visual-Question-Answering-for-Video-Quality-Assessment/tree/main/VQA%C2%B2-qwen2-5_finetune), which is 4× memory efficient compared to llava-ov (Thanks to the owners of repository https://github.com/2U1/Qwen2-VL-Finetune !). 
 - 🔥[2025/5/4] We have updated a new version of enhanced VQA²-Assistant (llava-ov) with better output style and benchmark performance (https://huggingface.co/q-future/VQA-Assistant-llava-qwen-enhanced).
