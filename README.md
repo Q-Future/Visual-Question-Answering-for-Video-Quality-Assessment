@@ -77,7 +77,7 @@ _Built upon <a href="https://github.com/LLaVA-VL/LLaVA-NeXT" target="_blank">LLa
 ## Quicker Start:
 Install dependencies:
 ```shell
-cd quality_interpreting
+cd llava_finetune
 conda create -n VQA python=3.10 -y
 conda activate VQA
 pip install --upgrade pip
@@ -115,11 +115,11 @@ Gradio demo:
 python ./app.py #Note that the minimum GPU requirement is 3090(24G)*1.
 ```
 ## Training
-cd quality_interpreting
+cd llava_finetune
 ```shell
-chmod +x ./scripts/train/finetune_VQA².sh
+chmod +x ./finetune_onevision.sh
 ```
-Then directly execute this .sh file. Note that we only support training with per_device_train_batch_size=1.
+Then directly execute this .sh file.
 
 ## Training Dataset
 Stage-2-streaming (2.1K): https://huggingface.co/datasets/q-future/VQA-stage2-streaming (q-future/VQA-stage2-streaming)
