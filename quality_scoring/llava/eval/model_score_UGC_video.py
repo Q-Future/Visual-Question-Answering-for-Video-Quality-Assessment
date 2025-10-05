@@ -3,7 +3,7 @@ import argparse
 import os
 import sys
 print(sys.path)
-sys.path.append('/tos-bjml-researcheval/jiaziheng/VQA++/Visual-Question-Answering-for-Video-Quality-Assessment/VQA_main')
+sys.path.append('./')
 import json
 from tqdm import tqdm
 import numpy as np
