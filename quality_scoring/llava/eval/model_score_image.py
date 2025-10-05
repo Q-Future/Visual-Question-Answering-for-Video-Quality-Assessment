@@ -2,7 +2,7 @@ import argparse
 
 import os
 import sys
-sys.path.append('/tos-bjml-researcheval/jiaziheng/quality_foundation_model/train_foundation')
+sys.path.append('./')
 import json
 from tqdm import tqdm
 import numpy as np
