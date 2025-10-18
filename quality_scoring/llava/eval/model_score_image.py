@@ -568,7 +568,7 @@ def eval_model(args):
                         except:
                             image_file= process_anyres_image(filename,image_processor)
                         image = image_file
-                        image_tensors = [[[image[0].repeat(4, 1, 1, 1).half()], [image[0].half()]]]
+                        image_tensors = [[image[0].repeat(4, 1, 1, 1).half()], [image[0].half()]]
 
                         inp = inp
                         # image = None
