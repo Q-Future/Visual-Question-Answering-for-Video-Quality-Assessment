@@ -385,13 +385,13 @@ class LlavaMetaForCausalLM(ABC):
                                 pass
                             else:
                                 image_feature = torch.cat((base_image_feature, image_feature), dim=0)
-                        else:  # single image operations
+                    else:  # single image operations
                             image_feature = image_feature[0]
                             if "unpad" in mm_patch_merge_type:
                                 image_feature = torch.cat((image_feature, self.model.image_newline[None]), dim=0)
                             # print(image_feature.shape)
                             new_image_features.append(image_feature)
-                    image_features = new_image_features
+                image_features = new_image_features
             else:
                 raise ValueError(f"Unexpected mm_patch_merge_type: {self.config.mm_patch_merge_type}")
         else:
