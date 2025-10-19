@@ -484,7 +484,7 @@ def eval_model(args):
                     image_file= process_anyres_image(
                         "/tos-bjml-researcheval/jiaziheng/qbench/images/images/" + image_path,image_processor)
                     image = image_file
-                    image_tensors = [[[image[0].repeat(4, 1, 1, 1).half()], [image[0].half()]]]
+                    image_tensors = [[[image[0].repeat(4, 1, 1, 1).half().cuda()], [image[0].half().cuda()]]]
                     # image_tensors = [[[image_tensor[:image_tensor.shape[0] // 4 * 4].half().cuda()],
                     #                   [image_tensor[frame_idx].half().cuda()]]]
 
