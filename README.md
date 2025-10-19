@@ -107,7 +107,7 @@ cd quality_interpreting
 python ./llava/eval/model_vqa_q_bench_video.py
 ```
 
-For image Evaluation:
+For image(Q-bench) Evaluation:
 ```shell
 cd quality_interpreting
 python ./llava/eval/model_vqa_image.py
