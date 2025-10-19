@@ -268,7 +268,7 @@ class LlavaMetaForCausalLM(ABC):
             image_features = []
             for idx, image_feat in enumerate(encoded_image_features):
 
-                    image_features.append(self.get_2dPool(image_feat))
+                    image_features.append(image_feat)
 
             # image_features = self.encode_multimodals(concat_images, video_idx_in_batch, split_sizes)
             # rank_print(f"Encoded image feats : {[x.shape for x in image_features]}")
@@ -288,6 +288,7 @@ class LlavaMetaForCausalLM(ABC):
                     # we want to first unflatten it to (2, 2, h, w, hidden_size)
                     # rank0_print("At least we are reaching here")
                     if image_idx in video_idx_in_batch:  # video operations
+                        image_feature=self.get_2dPool(image_feature)
                         # rank0_print("Video")
                         if self.config.mm_newline_position == "grid":
                             # Grid-wise
@@ -323,68 +324,74 @@ class LlavaMetaForCausalLM(ABC):
 
 
                     elif image_feature.shape[0] > 1:  # multi patches and multi images operations
-                        # rank0_print("Single-images")
-                        base_image_feature = image_feature[0]
-                        image_feature = image_feature[1:]
-                        height = width = self.get_vision_tower().num_patches_per_side
-                        assert height * width == base_image_feature.shape[0]
+                            # rank0_print("Single-images")
+                            base_image_feature = image_feature[0]
+                            image_feature = image_feature[1:]
+                            height = width = self.get_vision_tower().num_patches_per_side
+                            assert height * width == base_image_feature.shape[0]
 
-                        if "anyres_max" in image_aspect_ratio:
-                            matched_anyres_max_num_patches = re.match(r"anyres_max_(\d+)", image_aspect_ratio)
-                            if matched_anyres_max_num_patches:
-                                max_num_patches = int(matched_anyres_max_num_patches.group(1))
+                            if "anyres_max" in image_aspect_ratio:
+                                matched_anyres_max_num_patches = re.match(r"anyres_max_(\d+)", image_aspect_ratio)
+                                if matched_anyres_max_num_patches:
+                                    max_num_patches = int(matched_anyres_max_num_patches.group(1))
 
-                        if image_aspect_ratio == "anyres" or "anyres_max" in image_aspect_ratio:
-                            if hasattr(self.get_vision_tower(), "image_size"):
-                                vision_tower_image_size = self.get_vision_tower().image_size
+                            if image_aspect_ratio == "anyres" or "anyres_max" in image_aspect_ratio:
+                                if hasattr(self.get_vision_tower(), "image_size"):
+                                    vision_tower_image_size = self.get_vision_tower().image_size
+                                else:
+                                    raise ValueError("vision_tower_image_size is not found in the vision tower.")
+                                try:
+                                    num_patch_width, num_patch_height = get_anyres_image_grid_shape(image_sizes[NUM], self.config.image_grid_pinpoints, vision_tower_image_size)
+                                except Exception as e:
+                                    rank0_print(f"Error: {e}")
+                                    num_patch_width, num_patch_height = 2, 2
+                                image_feature = image_feature.view(num_patch_height, num_patch_width, height, width, -1)
                             else:
-                                raise ValueError("vision_tower_image_size is not found in the vision tower.")
-                            try:
-                                num_patch_width, num_patch_height = get_anyres_image_grid_shape(image_sizes[image_idx], self.config.image_grid_pinpoints, vision_tower_image_size)
-                            except Exception as e:
-                                rank0_print(f"Error: {e}")
-                                num_patch_width, num_patch_height = 2, 2
-                            image_feature = image_feature.view(num_patch_height, num_patch_width, height, width, -1)
-                        else:
-                            image_feature = image_feature.view(2, 2, height, width, -1)
+                                image_feature = image_feature.view(2, 2, height, width, -1)
 
-                        if "maxpool2x2" in mm_patch_merge_type:
-                            image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
-                            image_feature = image_feature.flatten(1, 2).flatten(2, 3)
-                            image_feature = nn.functional.max_pool2d(image_feature, 2)
-                            image_feature = image_feature.flatten(1, 2).transpose(0, 1)
-                        elif "unpad" in mm_patch_merge_type and "anyres_max" in image_aspect_ratio and matched_anyres_max_num_patches:
-                            unit = image_feature.shape[2]
-                            image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
-                            image_feature = image_feature.flatten(1, 2).flatten(2, 3)
-                            image_feature = unpad_image(image_feature, image_sizes[image_idx])
-                            c, h, w = image_feature.shape
-                            times = math.sqrt(h * w / (max_num_patches * unit**2))
-                            if times > 1.1:
-                                image_feature = image_feature[None]
-                                image_feature = nn.functional.interpolate(image_feature, [int(h // times), int(w // times)], mode="bilinear")[0]
-                            image_feature = torch.cat((image_feature, self.model.image_newline[:, None, None].expand(*image_feature.shape[:-1], 1).to(image_feature.device)), dim=-1)
-                            image_feature = image_feature.flatten(1, 2).transpose(0, 1)
-                        elif "unpad" in mm_patch_merge_type:
-                            image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
-                            image_feature = image_feature.flatten(1, 2).flatten(2, 3)
-                            image_feature = unpad_image(image_feature, image_sizes[image_idx])
-                            image_feature = torch.cat((image_feature, self.model.image_newline[:, None, None].expand(*image_feature.shape[:-1], 1).to(image_feature.device)), dim=-1)
-                            image_feature = image_feature.flatten(1, 2).transpose(0, 1)
-                        else:
-                            image_feature = image_feature.permute(0, 2, 1, 3, 4).contiguous()
-                            image_feature = image_feature.flatten(0, 3)
-                        if "nobase" in mm_patch_merge_type:
-                            pass
-                        else:
-                            image_feature = torch.cat((base_image_feature, image_feature), dim=0)
-                    else:  # single image operations
-                        image_feature = image_feature[0]
-                        if "unpad" in mm_patch_merge_type:
-                            image_feature = torch.cat((image_feature, self.model.image_newline[None]), dim=0)
-
-                        new_image_features.append(image_feature)
-                image_features = new_image_features
+                            if "maxpool2x2" in mm_patch_merge_type:
+                                image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
+                                image_feature = image_feature.flatten(1, 2).flatten(2, 3)
+                                image_feature = nn.functional.max_pool2d(image_feature, 2)
+                                image_feature = image_feature.flatten(1, 2).transpose(0, 1)
+                                new_image_features.append(image_feature+0*torch.cat((image_feature[:image_feature.shape[0]-encoded_slowfast_features.shape[0]], encoded_slowfast_features), 0))
+                            elif "unpad" in mm_patch_merge_type and "anyres_max" in image_aspect_ratio and matched_anyres_max_num_patches:
+                                unit = image_feature.shape[2]
+                                image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
+                                image_feature = image_feature.flatten(1, 2).flatten(2, 3)
+                                image_feature = unpad_image(image_feature, image_sizes[NUM])
+                                c, h, w = image_feature.shape
+                                times = math.sqrt(h * w / (max_num_patches * unit**2))
+                                if times > 1.1:
+                                    image_feature = image_feature[None]
+                                    image_feature = nn.functional.interpolate(image_feature, [int(h // times), int(w // times)], mode="bilinear")[0]
+                                image_feature = torch.cat((image_feature, self.model.image_newline[:, None, None].expand(*image_feature.shape[:-1], 1).to(image_feature.device)), dim=-1)
+                                image_feature = image_feature.flatten(1, 2).transpose(0, 1)
+                                new_image_features.append(image_feature+0*torch.cat((image_feature[:image_feature.shape[0]-encoded_slowfast_features.shape[0]], encoded_slowfast_features), 0))
+                                # print(4)
+                            elif "unpad" in mm_patch_merge_type:
+                                image_feature = image_feature.permute(4, 0, 2, 1, 3).contiguous()
+                                image_feature = image_feature.flatten(1, 2).flatten(2, 3)
+                                image_feature = unpad_image(image_feature, image_sizes[NUM])
+                                image_feature = torch.cat((image_feature, self.model.image_newline[:, None, None].expand(*image_feature.shape[:-1], 1).to(image_feature.device)), dim=-1)
+                                image_feature = image_feature.flatten(1, 2).transpose(0, 1)
+                                new_image_features.append(image_feature+0*torch.cat((image_feature[:image_feature.shape[0]-encoded_slowfast_features.shape[0]], encoded_slowfast_features), 0))
+                                # new_image_features.append(image_feature)
+                            else:
+                                image_feature = image_feature.permute(0, 2, 1, 3, 4).contiguous()
+                                image_feature = image_feature.flatten(0, 3)
+                                new_image_features.append(image_feature+0*torch.cat((image_feature[:image_feature.shape[0]-encoded_slowfast_features.shape[0]], encoded_slowfast_features), 0))
+                            if "nobase" in mm_patch_merge_type:
+                                pass
+                            else:
+                                image_feature = torch.cat((base_image_feature, image_feature), dim=0)
+                        else:  # single image operations
+                            image_feature = image_feature[0]
+                            if "unpad" in mm_patch_merge_type:
+                                image_feature = torch.cat((image_feature, self.model.image_newline[None]), dim=0)
+                            # print(image_feature.shape)
+                            new_image_features.append(image_feature)
+                    image_features = new_image_features
             else:
                 raise ValueError(f"Unexpected mm_patch_merge_type: {self.config.mm_patch_merge_type}")
         else:
