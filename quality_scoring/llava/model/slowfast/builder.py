@@ -8,7 +8,7 @@ class slowfast(torch.nn.Module):
         super(slowfast, self).__init__()
         # slowfast=
         # slowfast_pretrained_features = nn.Sequential(*list(slowfast_r50(pretrained=True).children())[0])
-        slowfast_pretrained_features = torch.load('/tos-bjml-researcheval/jiaziheng/VQA++/Visual-Question-Answering-for-Video-Quality-Assessment/VQA_main/slowfast.pth',weights_only=False)
+        slowfast_pretrained_features = torch.load('slowfast.pth',weights_only=False)
 
         self.feature_extraction = torch.nn.Sequential()
         self.slow_avg_pool = torch.nn.Sequential()
